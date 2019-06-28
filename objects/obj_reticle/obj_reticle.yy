@@ -2,7 +2,7 @@
     "id": "688d6758-3168-4d4a-913b-ea4d09672f02",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_floor_13",
+    "name": "obj_reticle",
     "eventList": [
         
     ],
