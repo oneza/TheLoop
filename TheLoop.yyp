@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "8a938d97-0c41-4765-8029-7bbfdca5929e",
+            "Value": {
+                "id": "4534c1d6-7bb3-4e7f-91e6-545b5073ea4f",
+                "resourcePath": "objects\\obj_enemy_bullet\\obj_enemy_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "970f2b89-5c92-4176-bdcc-b78f0e1e625c",
             "Value": {
                 "id": "205cdc0a-7a32-4dd9-badb-916f681400d9",

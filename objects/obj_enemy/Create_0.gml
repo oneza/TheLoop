@@ -11,7 +11,6 @@ agro_range = 500;
 chase_speed = 3.5
 patrol_speed = 2.5
 patrol_range = 150
-//idle вражина с нулевой скоростью по дефолту
 randomize();
 patrol_random = floor(random_range(0, 1 + 1));
 patrol_direction = -1 + 2 * patrol_random
@@ -23,5 +22,5 @@ speed_h=0;
 speed_v=0;
 image_xscale = 1;
 
-bullet_cooldown = room_speed/3;
+bullet_cooldown = room_speed/2;
 alarm[0] = bullet_cooldown;
