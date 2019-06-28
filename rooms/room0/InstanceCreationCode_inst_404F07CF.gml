@@ -1,1 +1,1 @@
-//depth = -1000000
+depth = -room_height - 1

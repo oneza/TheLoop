@@ -4,3 +4,5 @@ speed_h=0;
 speed_v=0;
 image_xscale = 1
 can_change_xscale = false
+
+mouse_last_position = sign(x - mouse_x)
