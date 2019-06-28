@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "21bc3449-a0f7-4bb4-8d99-d4deaefab1b9",
+            "Value": {
+                "id": "95f97cc8-af17-498d-bb72-394c5dd119c5",
+                "resourcePath": "objects\\obj_enemy_bullet\\obj_enemy_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "223b974d-2ee1-4056-83c5-37cb1bd05af8",
             "Value": {
                 "id": "0212b91b-54b3-4b9f-8117-8f8211a220a8",
@@ -324,14 +332,6 @@
                 "id": "29f778c4-a7b1-4c22-bd1a-4aa0bf509ce3",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
-            }
-        },
-        {
-            "Key": "ccf55a34-8f0f-4874-bc8f-307e0eb0038e",
-            "Value": {
-                "id": "a4fc9115-4084-419a-abaf-e1c737ff2c33",
-                "resourcePath": "sprites\\sprite71\\sprite71.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
