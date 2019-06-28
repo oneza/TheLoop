@@ -6,3 +6,12 @@ image_xscale = 1
 can_change_xscale = false
 
 mouse_last_position = sign(x - mouse_x)
+
+globalvar pistol_capacity;
+pistol_capacity = 12;
+
+globalvar rifle_capacity;
+rifle_capacity = 30;
+
+globalvar shotgun_capacity;
+shotgun_capacity = 8;
