@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "08f54578-e380-44fb-aea0-2413246c7c1e",
-            "Value": {
-                "id": "7d4842c1-ddc4-44bb-ba9b-5e03530deb7f",
-                "resourcePath": "sprites\\spr_playerbullet1\\spr_playerbullet1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0d0cd967-6433-4da1-9475-b5d379c9f954",
             "Value": {
                 "id": "0d9db780-faa7-495f-be28-c3e302df1ed6",
@@ -127,14 +119,6 @@
             }
         },
         {
-            "Key": "2df79417-a7b1-4a1a-8407-0237e020c29d",
-            "Value": {
-                "id": "6444dc43-e5c3-4f5b-8102-49a0b606d809",
-                "resourcePath": "sprites\\spr_player_jump\\spr_player_jump.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2f807dcc-db60-45d7-8870-8afa597754a6",
             "Value": {
                 "id": "b26f992e-5e80-47f0-922d-ef972586e208",
@@ -151,10 +135,10 @@
             }
         },
         {
-            "Key": "40225ddf-e91f-40ce-9f34-ade476959124",
+            "Key": "390862a5-8d20-4db4-a8c0-a87c01c6d29e",
             "Value": {
-                "id": "87f8d0f5-ec7e-465f-b075-8fcef5e7cbbb",
-                "resourcePath": "objects\\obj_collision\\obj_collision.yy",
+                "id": "98ee479d-0dc7-4dfa-a364-60a891a88a84",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -287,14 +271,6 @@
             }
         },
         {
-            "Key": "a39f44bf-2269-4576-9fd0-a5df16960414",
-            "Value": {
-                "id": "4d5973b0-e0d5-4a65-b879-50e7e353bc36",
-                "resourcePath": "scripts\\set_depth\\set_depth.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "a5956529-f6c5-4499-a158-5924bf94676f",
             "Value": {
                 "id": "482f2f51-c46a-4ec4-a07a-fa8257031a1a",
@@ -327,6 +303,14 @@
             }
         },
         {
+            "Key": "c3e1dd13-e534-436f-8352-b8c6236e8449",
+            "Value": {
+                "id": "62500141-4e93-4eaf-9dfb-0517fded0dbf",
+                "resourcePath": "objects\\obj_enemy_weapon\\obj_enemy_weapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ca5bc79c-73f0-492a-a680-cf796ba9b280",
             "Value": {
                 "id": "64101d75-cdf6-4548-b6d1-c99a0e0c8282",
@@ -346,7 +330,7 @@
             "Key": "ccf55a34-8f0f-4874-bc8f-307e0eb0038e",
             "Value": {
                 "id": "a4fc9115-4084-419a-abaf-e1c737ff2c33",
-                "resourcePath": "sprites\\spr_playerbullet\\spr_playerbullet.yy",
+                "resourcePath": "sprites\\sprite71\\sprite71.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -364,6 +348,14 @@
                 "id": "59ee8a92-c1a3-45e2-9dc5-ae911d720b18",
                 "resourcePath": "sprites\\spr_player_weap_stand\\spr_player_weap_stand.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "db28c167-9bde-407e-95c7-ab705d340641",
+            "Value": {
+                "id": "6ad43519-a13c-4472-80b0-a198c156d3c8",
+                "resourcePath": "views\\db28c167-9bde-407e-95c7-ab705d340641.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -396,14 +388,6 @@
                 "id": "490e77c1-f06e-4542-b8f2-6cafed89a750",
                 "resourcePath": "objects\\obj_floor_1\\obj_floor_1.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "ec9fc5c8-f101-49be-a56a-6730ab50ec1c",
-            "Value": {
-                "id": "44de1173-98d4-4ffc-b77d-c8ede81a6d77",
-                "resourcePath": "sprites\\spr_collision\\spr_collision.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -456,7 +440,7 @@
         }
     ],
     "script_order": [
-        "a39f44bf-2269-4576-9fd0-a5df16960414"
+        
     ],
     "tutorial": ""
 }
