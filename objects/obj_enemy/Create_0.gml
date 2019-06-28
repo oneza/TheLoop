@@ -3,7 +3,8 @@ en_x = x;
 en_y = y;
 state = 1 //back to patrol = 0 //patrol = 1 //chase = 2
 attack_player = false
-combat_start_range = 300
+globalvar combat_start_range;
+combat_start_range = 300;
 vsp = 0;
 hsp = 0;
 dir = -1;
