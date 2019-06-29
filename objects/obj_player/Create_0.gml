@@ -2,9 +2,11 @@ spdh= 6;
 spdv= 5;
 speed_h=0;
 speed_v=0;
-image_xscale = 1
-can_change_xscale = false
+image_xscale = 1;
+can_change_xscale = false;
 
+player_hp = 100;
+player_armor = 100;
 mouse_last_position = sign(x - mouse_x)
 
 globalvar pistol_capacity;
