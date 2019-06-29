@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "f428509f-2ced-44c0-842d-711257c2640d",
     "children": [
-        "b8b93335-0ef8-4d55-9d3e-b45ec1f57f2c"
+        "b8b93335-0ef8-4d55-9d3e-b45ec1f57f2c",
+        "9d898ab7-3a86-4ecb-924b-c72d11029f6f"
     ],
     "filterType": "GMObject",
     "folderName": "loot",
