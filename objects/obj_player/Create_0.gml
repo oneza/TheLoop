@@ -6,7 +6,7 @@ image_xscale = 1;
 can_change_xscale = false;
 
 player_hp = 100;
-player_armor = 100;
+player_armor = 90;
 mouse_last_position = sign(x - mouse_x)
 
 globalvar pistol_capacity;
