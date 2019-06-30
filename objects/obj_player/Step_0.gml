@@ -4,48 +4,104 @@ key_up    = keyboard_check(ord("W"));
 key_down  = keyboard_check(ord("S"));
 key_space = keyboard_check_pressed(vk_space);
 
-var move_x = (key_right - key_left);
-var move_y = (key_down - key_up);
 
-speed_h = move_x * spdh;
-speed_v = move_y * spdv;
+if (state == "move")
+{
+	var move_x = (key_right - key_left);
+	var move_y = (key_down - key_up);
 
-
-if place_meeting(x+speed_h, y, obj_collision) {
-    while !place_meeting(x+sign(speed_h), y, obj_collision) {
-        x += sign(speed_h);
-    }
-    speed_h = 0;
-}
-
-if place_meeting(x, y + speed_v, obj_collision) {
-    while !place_meeting(x, y+sign(speed_v), obj_collision) {
-        y += sign(speed_v);
-    }
-    speed_v = 0;
-}
-
-
-if (move_x != 0){
-	x += speed_h;
-	}
-if (move_y != 0){
-	y += speed_v;
+	speed_h = move_x * spdh;
+	speed_v = move_y * spdv;
+	
+	if place_meeting(x+speed_h, y, obj_collision) 
+	{
+		while !place_meeting(x+sign(speed_h), y, obj_collision) 
+		{
+			x += sign(speed_h);
+		}
+		speed_h = 0;
 	}
 
-var change_side = false
-if (sign(x - mouse_x) != mouse_last_position)
-{
-	change_side = true	
+	if place_meeting(x, y + speed_v, obj_collision) {
+		while !place_meeting(x, y+sign(speed_v), obj_collision) 
+		{
+			y += sign(speed_v);
+		}
+		speed_v = 0;
+	}
+	
+	if (move_x != 0)
+	{
+		x += speed_h;
+	}
+	if (move_y != 0)
+	{
+		y += speed_v;
+	}
+	
+	var change_side = false
+	if (sign(x - mouse_x) != mouse_last_position)
+	{
+		change_side = true	
+	}
+
+	if change_side
+	{
+		change_side = false
+		mouse_last_position = sign(x - mouse_x)
+		image_xscale = -sign(x - mouse_x)
+		x += -sign(x - mouse_x) * 10
+	}
+	
+	if (key_space)
+	{
+		image_index = 0;
+		state = "roll";	
+	}
 }
 
-if change_side
+if (state == "roll")
 {
-	change_side = false
-	mouse_last_position = sign(x - mouse_x)
-	image_xscale = -sign(x - mouse_x)
-	x += -sign(x - mouse_x) * 10
+	sprite_index = spr_player_jump;
+	image_speed = 0.6;
+	if (image_xscale = -1) x -= 10;
+	if (image_xscale = 1) x += 10;
+	//if (keyboard_check_pressed(ord("A"))) x -= spdh * 10;
+	//if (key_right) x += spdh * 10;
+	//if (key_up) y -= spdv * 10;
+	//if (key_down) y += spdv * 10;
 }
+
+//speed_hroll = spdh * 20;
+//speed_vroll = spdv * 20;
+//if (key_up && key_space)
+//{
+//	y -= speed_vroll;
+//}
+//if (key_down && key_space)
+//{
+	
+//	y += speed_vroll;
+//}
+//if (key_right && key_space)
+//{
+//	object_set_sprite(0, spr_player_jump)
+//	x += speed_hroll;
+//}
+//if (key_left && key_space)
+//{
+	
+//	x -= speed_hroll;
+//}
+
+//if (xroll != 0)
+//{
+//	x += speed_hroll;
+//}
+//if (yroll != 0)
+//{
+//	y += speed_vroll;		
+//}
 
 //if (x < mouse_x)
 //{
