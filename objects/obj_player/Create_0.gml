@@ -7,6 +7,7 @@ can_change_xscale = false;
 
 state = "move";
 
+
 player_hp = 85;
 player_armor = 70;
 mouse_last_position = sign(x - mouse_x)
