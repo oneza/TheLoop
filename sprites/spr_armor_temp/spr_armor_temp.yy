@@ -6,50 +6,50 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 23,
-    "bbox_left": 6,
-    "bbox_right": 18,
-    "bbox_top": 4,
+    "bbox_bottom": 89,
+    "bbox_left": 7,
+    "bbox_right": 92,
+    "bbox_top": 8,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "583128de-c5e4-48b1-aa9b-85334ef91a65",
+            "id": "9f6fe70a-ee2b-4783-b10c-072802dc446f",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "25599e64-9605-4c1b-b52a-c4494b2f97e5",
             "compositeImage": {
-                "id": "8519440a-fadd-4c5c-b428-3ba67265b461",
+                "id": "ad4fb612-bae3-4aed-a09b-38e6b04f57b1",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "583128de-c5e4-48b1-aa9b-85334ef91a65",
+                "FrameId": "9f6fe70a-ee2b-4783-b10c-072802dc446f",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "b7c41a91-99ca-47bc-aee9-52bd2e7fbf43",
+                    "id": "68dbcbf4-6cfd-491e-8316-4cb4c6e9aeab",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "583128de-c5e4-48b1-aa9b-85334ef91a65",
-                    "LayerId": "bd8b1bb4-a4c0-4e21-b463-dbcfcfef2004"
+                    "FrameId": "9f6fe70a-ee2b-4783-b10c-072802dc446f",
+                    "LayerId": "ac72fa8a-143c-4602-a159-6da7f95565c1"
                 }
             ]
         }
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 30,
+    "height": 100,
     "layers": [
         {
-            "id": "bd8b1bb4-a4c0-4e21-b463-dbcfcfef2004",
+            "id": "ac72fa8a-143c-4602-a159-6da7f95565c1",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "25599e64-9605-4c1b-b52a-c4494b2f97e5",
             "blendMode": 0,
             "isLocked": false,
-            "name": "default",
+            "name": "Layer 1",
             "opacity": 100,
             "visible": true
         }
@@ -64,7 +64,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 30,
+    "width": 100,
     "xorig": 0,
     "yorig": 0
 }
