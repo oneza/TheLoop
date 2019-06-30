@@ -7,6 +7,7 @@ can_change_xscale = false;
 
 state = "move";
 
+current_weapon = 0;
 
 player_hp = 85;
 player_armor = 70;

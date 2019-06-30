@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "23660e39-2285-4602-be8f-828ceb981bfa",
+            "Value": {
+                "id": "3d620b8b-272c-4936-bc55-0e9a90a93962",
+                "resourcePath": "objects\\obj_player_weapon_shotgun\\obj_player_weapon_shotgun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2534a320-1561-4dee-857a-b76ca1972839",
             "Value": {
                 "id": "b2743dcc-5849-4343-8cd0-97c53688964a",
@@ -644,6 +652,14 @@
                 "id": "6ad43519-a13c-4472-80b0-a198c156d3c8",
                 "resourcePath": "views\\db28c167-9bde-407e-95c7-ab705d340641.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e26f7b8f-aa0d-42db-a106-798e3a5050c8",
+            "Value": {
+                "id": "bc9272f4-e8b9-414e-abc7-78083409d623",
+                "resourcePath": "objects\\obj_player_weapon_rifle\\obj_player_weapon_rifle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
