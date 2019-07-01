@@ -83,8 +83,3 @@ if (state == "roll")
 
 depth_set()
 #endregion
-#region Weapons
-
-
-
-#endregion
