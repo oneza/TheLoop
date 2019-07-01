@@ -5,7 +5,7 @@ speed_v=0;
 image_xscale = 1;
 can_change_xscale = false;
 
-state = "move";
+state = "standing"
 
 current_weapon = 0;
 

@@ -5,7 +5,7 @@ key_down  = keyboard_check(ord("S"));
 key_space = keyboard_check_pressed(vk_space);
 
 
-if (state == "move")
+if (state == "move" or state == "standing")
 {
 	var move_x = (key_right - key_left);
 	var move_y = (key_down - key_up);
@@ -62,65 +62,13 @@ if (state == "move")
 
 if (state == "roll")
 {
-	sprite_index = spr_player_jump;
 	image_speed = 0.6;
-	if (image_xscale = -1) x -= 10;
-	if (image_xscale = 1) x += 10;
+	if (image_xscale == -1) x -= 10;
+	if (image_xscale == 1) x += 10;
 	//if (keyboard_check_pressed(ord("A"))) x -= spdh * 10;
 	//if (key_right) x += spdh * 10;
 	//if (key_up) y -= spdv * 10;
 	//if (key_down) y += spdv * 10;
 }
-
-//speed_hroll = spdh * 20;
-//speed_vroll = spdv * 20;
-//if (key_up && key_space)
-//{
-//	y -= speed_vroll;
-//}
-//if (key_down && key_space)
-//{
-	
-//	y += speed_vroll;
-//}
-//if (key_right && key_space)
-//{
-//	object_set_sprite(0, spr_player_jump)
-//	x += speed_hroll;
-//}
-//if (key_left && key_space)
-//{
-	
-//	x -= speed_hroll;
-//}
-
-//if (xroll != 0)
-//{
-//	x += speed_hroll;
-//}
-//if (yroll != 0)
-//{
-//	y += speed_vroll;		
-//}
-
-//if (x < mouse_x)
-//{
-//	image_xscale = 1;
-//	if can_change_xscale
-//	{
-//		can_change_xscale = false
-//		x -= 60	
-//	}
-	
-//}
-//else
-//{
-//	image_xscale = -1;
-//	if can_change_xscale
-//	{
-//		can_change_xscale = false
-//		x += 60	
-//	}
-//}
 
 depth_set()

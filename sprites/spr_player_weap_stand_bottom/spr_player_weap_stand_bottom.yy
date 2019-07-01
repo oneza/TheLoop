@@ -2,7 +2,7 @@
     "id": "4a7a67ab-e470-40ec-918d-ffe363afb7fe",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_player_weap_stand1",
+    "name": "spr_player_weap_stand_bottom",
     "For3D": false,
     "HTile": false,
     "VTile": false,

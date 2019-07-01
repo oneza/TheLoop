@@ -250,7 +250,7 @@
             "Key": "4a7a67ab-e470-40ec-918d-ffe363afb7fe",
             "Value": {
                 "id": "70c5aefb-d51d-4521-9d1a-c0651b6d5d4c",
-                "resourcePath": "sprites\\spr_player_weap_stand1\\spr_player_weap_stand1.yy",
+                "resourcePath": "sprites\\spr_player_weap_stand_bottom\\spr_player_weap_stand_bottom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -479,14 +479,6 @@
             }
         },
         {
-            "Key": "a2a77fa4-f2db-4815-a584-b8e17082e52f",
-            "Value": {
-                "id": "38db85b0-da6e-426b-92b8-2ed2283193f1",
-                "resourcePath": "sprites\\spr_player_weap_stand2\\spr_player_weap_stand2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a5956529-f6c5-4499-a158-5924bf94676f",
             "Value": {
                 "id": "482f2f51-c46a-4ec4-a07a-fa8257031a1a",
@@ -650,7 +642,7 @@
             "Key": "d49f89d7-1c9a-470a-89da-0ffa8a7804e6",
             "Value": {
                 "id": "59ee8a92-c1a3-45e2-9dc5-ae911d720b18",
-                "resourcePath": "sprites\\spr_player_weap_stand\\spr_player_weap_stand.yy",
+                "resourcePath": "sprites\\spr_player_weap_stand_right\\spr_player_weap_stand_right.yy",
                 "resourceType": "GMSprite"
             }
         },
