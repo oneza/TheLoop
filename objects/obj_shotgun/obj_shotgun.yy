@@ -1,19 +1,10 @@
 {
-    "id": "9b53a0e8-112f-4a08-817f-3e30f078730c",
+    "id": "19937426-9239-4fbc-a020-91f379b66120",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_collision_next_lvl",
+    "name": "obj_shotgun",
     "eventList": [
-        {
-            "id": "15811c79-4fab-43ec-be22-89b8da8e1781",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "a5956529-f6c5-4499-a158-5924bf94676f",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "9b53a0e8-112f-4a08-817f-3e30f078730c"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "aedb70b0-8171-400a-a9dd-ebb3a78c82bf",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
