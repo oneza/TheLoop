@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "edb3692c-7e89-4f41-b575-5507231f408c",
+            "Value": {
+                "id": "b08cfead-cac9-426c-974a-df7ca25b0d3b",
+                "resourcePath": "objects\\obj_player_weapon\\obj_player_weapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "efd655bb-200a-428c-950d-4aba7231b38b",
             "Value": {
                 "id": "112908d9-0d71-4dd2-b09e-8aad2a0f63b4",
