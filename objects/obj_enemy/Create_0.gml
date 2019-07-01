@@ -15,7 +15,7 @@ patrol_range = 150
 randomize();
 patrol_random = floor(random_range(0, 1 + 1));
 patrol_direction = -1 + 2 * patrol_random
-
+flash = 0 //Flashing after hit
 
 spdh= 6;
 spdv= 5;

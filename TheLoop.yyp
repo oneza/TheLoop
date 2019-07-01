@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "8e2111f7-04e9-43c0-8411-41d3fc81361e",
+            "Value": {
+                "id": "65c5f0d5-7714-49c1-9418-ac10fad482fa",
+                "resourcePath": "shaders\\hit_flash\\hit_flash.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "93af311e-4316-4a58-b45a-094eb8b590da",
             "Value": {
                 "id": "430fb94d-4d39-46e2-8169-5ab7362e89ad",
