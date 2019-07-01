@@ -6,6 +6,7 @@ image_xscale = 1;
 can_change_xscale = false;
 
 state = "standing"
+direction_state = "right"
 
 current_weapon = 0;
 

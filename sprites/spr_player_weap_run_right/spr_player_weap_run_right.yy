@@ -2,7 +2,7 @@
     "id": "f30ba426-c98d-4de1-a379-9cb9cc5f3193",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_player_weap_run",
+    "name": "spr_player_weap_run_right",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -9,5 +9,5 @@ draw_self();
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "-20"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" "image_speed"
-draw_text(x + 0, y + -20, string(image_speed) + "");
+/// @DnDArgument : "caption" "direction_state"
+draw_text(x + 0, y + -20, string(direction_state) + "");

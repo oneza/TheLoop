@@ -50,7 +50,7 @@
             "Key": "06edcbe0-ce9b-4f6e-a11d-d7e09e21b1f0",
             "Value": {
                 "id": "540e6eeb-a8d0-428d-8998-4a2164c83d75",
-                "resourcePath": "sprites\\spr_player_jump1\\spr_player_jump1.yy",
+                "resourcePath": "sprites\\spr_player_jump_bottom\\spr_player_jump_bottom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -98,7 +98,7 @@
             "Key": "1b11c4fd-6a74-4aef-aa22-67bbdcbb2237",
             "Value": {
                 "id": "1dad6cfa-fd7d-4245-bc72-7e6235982806",
-                "resourcePath": "sprites\\spr_player_weap_run2\\spr_player_weap_run2.yy",
+                "resourcePath": "sprites\\spr_player_weap_run_top\\spr_player_weap_run_top.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -322,7 +322,7 @@
             "Key": "6c42e920-f7f0-49d6-bb3b-9b57b4ff645a",
             "Value": {
                 "id": "4504446c-256f-4591-b048-1876851fcde2",
-                "resourcePath": "sprites\\spr_player_jump\\spr_player_jump.yy",
+                "resourcePath": "sprites\\spr_player_jump_right\\spr_player_jump_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -386,7 +386,7 @@
             "Key": "7e9f6387-315d-4e2f-ab94-8261f1197885",
             "Value": {
                 "id": "a1e7abc5-d4a5-4f8c-807c-bedef4198d8f",
-                "resourcePath": "sprites\\spr_player_weap_run1\\spr_player_weap_run1.yy",
+                "resourcePath": "sprites\\spr_player_weap_run_bottom\\spr_player_weap_run_bottom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -426,7 +426,7 @@
             "Key": "8babd48c-0879-4190-b647-8a4909b432a3",
             "Value": {
                 "id": "3079b017-f524-4961-92e8-b9fe30d5211d",
-                "resourcePath": "sprites\\spr_player_jump2\\spr_player_jump2.yy",
+                "resourcePath": "sprites\\spr_player_jump_top\\spr_player_jump_top.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -746,7 +746,7 @@
             "Key": "f30ba426-c98d-4de1-a379-9cb9cc5f3193",
             "Value": {
                 "id": "afc58556-cb12-475d-8661-cdaa3223371a",
-                "resourcePath": "sprites\\spr_player_weap_run\\spr_player_weap_run.yy",
+                "resourcePath": "sprites\\spr_player_weap_run_right\\spr_player_weap_run_right.yy",
                 "resourceType": "GMSprite"
             }
         },
