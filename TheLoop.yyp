@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "7b0e1e7e-da4d-4668-8643-be6cfe8bd038",
+            "Value": {
+                "id": "1bc18f68-d049-4642-abb6-ce0779f50b6a",
+                "resourcePath": "sprites\\spr_player_weap_stand_top\\spr_player_weap_stand_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7c228394-9940-4201-90ed-a29964a5a24f",
             "Value": {
                 "id": "186fc33c-da4d-4c71-b7cf-e01433a2048b",
