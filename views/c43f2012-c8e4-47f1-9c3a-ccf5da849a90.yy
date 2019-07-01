@@ -9,7 +9,9 @@
         "7f2e79c3-27fb-4c09-99bd-53619cee13e5",
         "64a17aba-6630-45b8-8205-81185cfd6f8c",
         "7844f056-5336-4f21-9d1c-c8955c51ce89",
-        "529ff176-e9b9-4aea-80c7-d4f04e7285ac"
+        "529ff176-e9b9-4aea-80c7-d4f04e7285ac",
+        "eafdb3ba-99d4-44ca-86fc-543fc9e1435b",
+        "61c6affb-b568-45cc-8527-85c49eac83f2"
     ],
     "filterType": "GMSprite",
     "folderName": "textures",
