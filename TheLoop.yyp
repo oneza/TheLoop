@@ -311,14 +311,6 @@
             }
         },
         {
-            "Key": "688d6758-3168-4d4a-913b-ea4d09672f02",
-            "Value": {
-                "id": "97143a73-ad7d-4766-8aaa-4c80b80af952",
-                "resourcePath": "objects\\obj_reticle\\obj_reticle.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6ab17fac-0502-414b-bfa4-d98c4694e281",
             "Value": {
                 "id": "d1819666-95e8-4774-9298-6ea8742918f2",
@@ -436,6 +428,14 @@
                 "id": "430fb94d-4d39-46e2-8169-5ab7362e89ad",
                 "resourcePath": "rooms\\rm_mainmenu\\rm_mainmenu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "94c9bf6f-7f3c-420c-88d0-7b3303e09d74",
+            "Value": {
+                "id": "38c87c25-72af-46e3-b148-602671c4005f",
+                "resourcePath": "objects\\obj_reticle\\obj_reticle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
