@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "2ac466e2-e8bb-45f7-9eb5-4bc3415b3667",
+            "Value": {
+                "id": "e53247dd-2bc2-430b-a874-44e3b244200f",
+                "resourcePath": "objects\\obj_rifle\\obj_rifle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2b102844-b3a3-43c8-95d5-ebffb630f41e",
             "Value": {
                 "id": "58cc8279-a253-4c03-8ac4-8bccecbd3e21",
@@ -475,6 +483,14 @@
             "Value": {
                 "id": "54ea3622-df43-48b3-b588-6d4ca8b994e6",
                 "resourcePath": "objects\\obj_armor\\obj_armor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9e4c8ff1-bb8f-481c-813f-f0bee3fdeab7",
+            "Value": {
+                "id": "aba2ab32-3d3b-4cbb-be72-5aab24baf5c3",
+                "resourcePath": "objects\\obj_shotgun\\obj_shotgun.yy",
                 "resourceType": "GMObject"
             }
         },
