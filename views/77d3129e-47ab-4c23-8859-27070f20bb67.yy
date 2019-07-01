@@ -4,7 +4,9 @@
     "mvc": "1.1",
     "name": "77d3129e-47ab-4c23-8859-27070f20bb67",
     "children": [
-        "a804b91b-af22-4396-8886-f3f2ef63cf00"
+        "a804b91b-af22-4396-8886-f3f2ef63cf00",
+        "270ebdec-c691-4f0e-a824-5bc0b9726984",
+        "fb276390-0c9a-4f40-9418-7a6c7c3bde5d"
     ],
     "filterType": "GMSprite",
     "folderName": "buttons",

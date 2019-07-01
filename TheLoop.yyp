@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1c54d3fd-0e39-4d7a-9598-cf1625f342ec",
+            "Value": {
+                "id": "3171cc20-b58b-48ec-b2c8-eff4329266a6",
+                "resourcePath": "objects\\obj_pause_mmbutton\\obj_pause_mmbutton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ec83aaa-0e1d-41a2-a91d-b36213964575",
             "Value": {
                 "id": "7afca832-27ae-4980-a18d-a62cbf5ac4e2",
@@ -179,6 +187,14 @@
             "Value": {
                 "id": "7fe6e24f-bd66-4c91-9491-c87bfcd3c812",
                 "resourcePath": "sprites\\spr_armor_temp\\spr_armor_temp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "270ebdec-c691-4f0e-a824-5bc0b9726984",
+            "Value": {
+                "id": "2609d0ec-31dc-4081-ad73-bd7a21aa8ad9",
+                "resourcePath": "sprites\\spr_pause_mmbutton\\spr_pause_mmbutton.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -567,6 +583,14 @@
             }
         },
         {
+            "Key": "a07a62c0-4902-44f9-b7c6-43882487a9de",
+            "Value": {
+                "id": "3f53f968-fb34-4b2e-919b-3e4d447ff923",
+                "resourcePath": "objects\\obj_pause_resumebutton\\obj_pause_resumebutton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5956529-f6c5-4499-a158-5924bf94676f",
             "Value": {
                 "id": "482f2f51-c46a-4ec4-a07a-fa8257031a1a",
@@ -916,6 +940,14 @@
                 "id": "79d1e6e0-1921-475b-9f44-2b3e4003d2bd",
                 "resourcePath": "objects\\obj_mmbutton\\obj_mmbutton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fb276390-0c9a-4f40-9418-7a6c7c3bde5d",
+            "Value": {
+                "id": "f49683d2-098b-4d8d-8815-efb99cf8e7e3",
+                "resourcePath": "sprites\\spr_pause_resumebutton\\spr_pause_resumebutton.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
