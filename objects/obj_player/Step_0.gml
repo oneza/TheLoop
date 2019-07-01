@@ -63,8 +63,17 @@ if (state == "move" or state == "standing")
 if (state == "roll")
 {
 	image_speed = 0.6;
-	if (image_xscale == -1) x -= 10;
-	if (image_xscale == 1) x += 10;
+	var jump_offset = 5
+	if !place_meeting(x + jump_offset, y, obj_collision)
+	{
+		if (image_xscale == 1) x += jump_offset;	
+	}
+	if !place_meeting(x - jump_offset, y, obj_collision)
+	{
+		if (image_xscale == -1) x -= jump_offset;
+	}
+	
+	
 	//if (keyboard_check_pressed(ord("A"))) x -= spdh * 10;
 	//if (key_right) x += spdh * 10;
 	//if (key_up) y -= spdv * 10;
