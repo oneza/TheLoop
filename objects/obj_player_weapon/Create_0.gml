@@ -17,3 +17,5 @@ switch (current_weapon) {
         // code here
         break;
 }
+
+//capacity = weapon[current_weapon, ]
