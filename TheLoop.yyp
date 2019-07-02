@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1c54d3fd-0e39-4d7a-9598-cf1625f342ec",
+            "Value": {
+                "id": "3171cc20-b58b-48ec-b2c8-eff4329266a6",
+                "resourcePath": "objects\\obj_pause_mmbutton\\obj_pause_mmbutton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ec83aaa-0e1d-41a2-a91d-b36213964575",
             "Value": {
                 "id": "7afca832-27ae-4980-a18d-a62cbf5ac4e2",
@@ -180,6 +188,22 @@
                 "id": "7fe6e24f-bd66-4c91-9491-c87bfcd3c812",
                 "resourcePath": "sprites\\spr_armor_temp\\spr_armor_temp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "270ebdec-c691-4f0e-a824-5bc0b9726984",
+            "Value": {
+                "id": "2609d0ec-31dc-4081-ad73-bd7a21aa8ad9",
+                "resourcePath": "sprites\\spr_pause_mmbutton\\spr_pause_mmbutton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2ac466e2-e8bb-45f7-9eb5-4bc3415b3667",
+            "Value": {
+                "id": "e53247dd-2bc2-430b-a874-44e3b244200f",
+                "resourcePath": "objects\\obj_rifle\\obj_rifle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -543,10 +567,34 @@
             }
         },
         {
+            "Key": "9e4c8ff1-bb8f-481c-813f-f0bee3fdeab7",
+            "Value": {
+                "id": "aba2ab32-3d3b-4cbb-be72-5aab24baf5c3",
+                "resourcePath": "objects\\obj_shotgun\\obj_shotgun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9ed43e27-32cc-44fd-bd39-8f3a1a1750bd",
             "Value": {
                 "id": "13611d59-e92f-452f-866c-a881dadaf671",
                 "resourcePath": "objects\\obj_collision\\obj_collision.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9f9029f3-5a25-4484-a085-b3c75218bba3",
+            "Value": {
+                "id": "9269be8f-80c1-4575-915a-add0cae17d10",
+                "resourcePath": "objects\\obj_weapon_ui\\obj_weapon_ui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a07a62c0-4902-44f9-b7c6-43882487a9de",
+            "Value": {
+                "id": "3f53f968-fb34-4b2e-919b-3e4d447ff923",
+                "resourcePath": "objects\\obj_pause_resumebutton\\obj_pause_resumebutton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -660,6 +708,14 @@
                 "id": "8c6c4fad-a028-4361-8b3d-156c82b6c8db",
                 "resourcePath": "views\\c43f2012-c8e4-47f1-9c3a-ccf5da849a90.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c583b754-77e8-4e26-bffa-05f50b0707f7",
+            "Value": {
+                "id": "34a0a01d-7060-4269-ab2d-ec559a08646a",
+                "resourcePath": "scripts\\make_shot\\make_shot.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -823,6 +879,14 @@
             }
         },
         {
+            "Key": "edb3692c-7e89-4f41-b575-5507231f408c",
+            "Value": {
+                "id": "b08cfead-cac9-426c-974a-df7ca25b0d3b",
+                "resourcePath": "objects\\obj_player_weapon\\obj_player_weapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "efd655bb-200a-428c-950d-4aba7231b38b",
             "Value": {
                 "id": "112908d9-0d71-4dd2-b09e-8aad2a0f63b4",
@@ -901,6 +965,14 @@
                 "resourcePath": "objects\\obj_mmbutton\\obj_mmbutton.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "fb276390-0c9a-4f40-9418-7a6c7c3bde5d",
+            "Value": {
+                "id": "f49683d2-098b-4d8d-8815-efb99cf8e7e3",
+                "resourcePath": "sprites\\spr_pause_resumebutton\\spr_pause_resumebutton.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
@@ -908,7 +980,8 @@
         "f5372368-8325-42cc-bb9f-f12731261182",
         "ae712bbf-42b4-4c6b-8894-81806cf22444",
         "f0fa275b-30a7-4973-9f16-0479e2b93c87",
-        "8a1e95a9-1c12-4c18-be2b-7b53010f604e"
+        "8a1e95a9-1c12-4c18-be2b-7b53010f604e",
+        "c583b754-77e8-4e26-bffa-05f50b0707f7"
     ],
     "tutorial": ""
 }
