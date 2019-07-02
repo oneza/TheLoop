@@ -1,4 +1,3 @@
-#region Movement
 key_right = keyboard_check(ord("D"));
 key_left  = keyboard_check(ord("A"));
 key_up    = keyboard_check(ord("W"));
@@ -82,4 +81,3 @@ if (state == "roll")
 }
 
 depth_set()
-#endregion

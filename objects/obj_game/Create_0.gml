@@ -1,54 +1,15 @@
-enum weapon_capacity {
-	pistol = 12,
-	rifle = 30,
-	shotgun = 8
-}
-enum weapon_damage {
-	pistol = 20,
-	rifle = 35,
-	shotgun = 15
-}
-enum weapon_reload_time { // * room_speed
-	pistol = 1,
-	rifle = 2,
-	shotgun = 4
-}
-enum weapon_shoot_rate { // * room_speed
-	pistol = 8,
-	rifle = 2,
-	shotgun = 1
-}
- 
-weapon[0, 0] = "pistol"
-weapon[0, 1] = weapon_capacity.pistol
-weapon[0, 2] = weapon_damage.pistol
-weapon[0, 3] = weapon_reload_time.pistol
-weapon[0, 4] = weapon_shoot_rate.pistol
-weapon[0, 5] = spr_player_pist
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 3B947932
+/// @DnDArgument : "code" "globalvar pistol_capacity;$(13_10)pistol_capacity = 12;$(13_10)$(13_10)globalvar rifle_capacity;$(13_10)rifle_capacity = 30;$(13_10)$(13_10)globalvar shotgun_capacity;$(13_10)shotgun_capacity = 8;$(13_10)$(13_10)globalvar fakrestores;$(13_10)fakrestores = 25;$(13_10)$(13_10)globalvar armorrestores;$(13_10)armorrestores = 50;$(13_10)$(13_10)globalvar pistol_damage;$(13_10)pistol_damage = 20;$(13_10)$(13_10)globalvar rifle_damage;$(13_10)rifle_damage = 35;$(13_10)$(13_10)globalvar shotgun_damage;$(13_10)shotgun_damage = 15$(13_10)$(13_10)globalvar current_weapon;"
+globalvar pistol_capacity;
+pistol_capacity = 12;
 
-weapon[1, 0] = "rifle"
-weapon[1, 1] = weapon_capacity.rifle
-weapon[1, 2] = weapon_damage.rifle
-weapon[1, 3] = weapon_reload_time.rifle
-weapon[1, 4] = weapon_shoot_rate.rifle
-weapon[1, 5] = spr_player_pist
+globalvar rifle_capacity;
+rifle_capacity = 30;
 
-weapon[2, 0] = "shotgun"
-weapon[2, 1] = weapon_capacity.shotgun
-weapon[2, 2] = weapon_damage.shotgun
-weapon[2, 3] = weapon_reload_time.shotgun
-weapon[2, 4] = weapon_shoot_rate.shotgun
-weapon[2, 5] = spr_player_shotgun
-
-
-//globalvar pistol_capacity;
-//pistol_capacity = 12;
-
-//globalvar rifle_capacity;
-//rifle_capacity = 30;
-
-//globalvar shotgun_capacity;
-//shotgun_capacity = 8;
+globalvar shotgun_capacity;
+shotgun_capacity = 8;
 
 globalvar fakrestores;
 fakrestores = 25;
@@ -56,17 +17,13 @@ fakrestores = 25;
 globalvar armorrestores;
 armorrestores = 50;
 
-//globalvar pistol_damage;
-//pistol_damage = 20;
+globalvar pistol_damage;
+pistol_damage = 20;
 
-//globalvar rifle_damage;
-//rifle_damage = 35;
+globalvar rifle_damage;
+rifle_damage = 35;
 
-//globalvar shotgun_damage;
-//shotgun_damage = 15
+globalvar shotgun_damage;
+shotgun_damage = 15
 
 globalvar current_weapon;
-
-global.gameIsPaused = false;
-screenShot = -1
-allObjects[0, 0] = noone;
