@@ -9,6 +9,7 @@ state = "standing"
 direction_state = "right"
 
 current_weapon = 0;
+object_player_weapon = instance_create_depth(x, y, obj_player.depth, obj_player_weapon)
 
 player_hp = 85;
 player_armor = 70;
