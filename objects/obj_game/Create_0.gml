@@ -40,30 +40,14 @@ weapon[2, 3] = weapon_reload_time.shotgun
 weapon[2, 4] = weapon_shoot_rate.shotgun
 weapon[2, 5] = spr_player_shotgun
 
-
-//globalvar pistol_capacity;
-//pistol_capacity = 12;
-
-//globalvar rifle_capacity;
-//rifle_capacity = 30;
-
-//globalvar shotgun_capacity;
-//shotgun_capacity = 8;
-
 globalvar fakrestores;
 fakrestores = 25;
 
 globalvar armorrestores;
 armorrestores = 50;
 
-//globalvar pistol_damage;
-//pistol_damage = 20;
-
-//globalvar rifle_damage;
-//rifle_damage = 35;
-
-//globalvar shotgun_damage;
-//shotgun_damage = 15
+globalvar skillActive;
+skillActive = false;
 
 globalvar current_weapon;
 

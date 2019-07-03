@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_rifle",
     "eventList": [
-        
+        {
+            "id": "847e3d86-0f09-4f36-8c39-1994fdfd11e2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "a5956529-f6c5-4499-a158-5924bf94676f",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "2ac466e2-e8bb-45f7-9eb5-4bc3415b3667"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
