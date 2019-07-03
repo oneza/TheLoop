@@ -14,4 +14,8 @@ player_hp = 85;
 player_armor = 70;
 mouse_last_position = sign(x - mouse_x)
 
+ability_duration = room_speed * 10;
+alarm[0] = ability_duration;
 
+ability_cooldown = room_speed * 60;
+alarm[1] = ability_cooldown;
