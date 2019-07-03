@@ -8,7 +8,6 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "f60856b9-7bc9-45a5-8aa2-643cd3d15a67",
-        "74f5d0dc-7c06-4d2f-8e38-c0af6231f40c",
         "824641ab-8c7e-4d35-aaf7-93eeabf03325",
         "4e5c1654-1e57-49ac-a999-cace6045e3e3",
         "3a3e4077-2862-4a61-b198-725127251be8",
@@ -34,6 +33,7 @@
         "eb5609a1-38ce-422c-99bf-8d60a2badb3a",
         "47093f9c-90ba-42c2-8b10-d457405db9dc",
         "bace7aca-944c-4a5d-afb0-ed30b4256340",
+        "74f5d0dc-7c06-4d2f-8e38-c0af6231f40c",
         "521b0064-1e4a-490f-9e0a-316be177393c",
         "ec8c2034-352d-44ef-af53-1acb65f62444",
         "d27fe532-93ef-4505-85a3-b72f337bf993",
@@ -72,7 +72,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
-            "userdefined_depth": true,
+            "userdefined_depth": false,
             "visible": true
         },
         {

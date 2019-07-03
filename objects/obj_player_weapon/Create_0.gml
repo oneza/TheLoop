@@ -1,10 +1,21 @@
-capacity = obj_game.weapon[current_weapon, 1]
-current_capacity = capacity
-damage = obj_game.weapon[current_weapon, 2]
-reload_time = obj_game.weapon[current_weapon, 3] * room_speed
-shoot_rate = obj_game.weapon[current_weapon, 4] * room_speed
-sprite_index = obj_game.weapon[current_weapon, 5]
-number_of_bullets_in_shot = obj_game.weapon[current_weapon, 6]
-number_of_bullets_in_row = obj_game.weapon[current_weapon, 7]
+switch (current_weapon) {
+    case 0:
+        sprite_index = spr_player_pist
+		capacity = weapon_capacity.pistol
+		current_capacity = capacity
+		damage = weapon_damage.pistol
+		reload_time = weapon_reload_time.pistol * room_speed
+		shoot_rate = weapon_shoot_rate.pistol
+        break;
+    case 1:
+        sprite_index = spr_player_pist
+        break;
+    case 2:
+        sprite_index = spr_player_shotgun
+        break;
+    default:
+        // code here
+        break;
+}
 
-left_button_unlock = true
+//capacity = weapon[current_weapon, ]
