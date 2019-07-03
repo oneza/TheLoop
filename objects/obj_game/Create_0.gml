@@ -43,7 +43,7 @@ weapon[1, 1] = weapon_capacity.rifle
 weapon[1, 2] = weapon_damage.rifle
 weapon[1, 3] = weapon_reload_time.rifle
 weapon[1, 4] = weapon_shoot_rate.rifle
-weapon[1, 5] = spr_player_pist
+weapon[1, 5] = spr_player_rifle
 weapon[1, 6] = weapon_number_of_bullets_in_shot.rifle
 weapon[1, 7] = weapon_number_of_bullets_in_row.rifle
 
