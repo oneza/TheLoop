@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "34b3fe25-5650-4cb8-b8bc-3a55a168635b",
+            "Value": {
+                "id": "6ad98c60-9645-42b2-9fc7-11f864a992d8",
+                "resourcePath": "sprites\\spr_player_rifle\\spr_player_rifle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "390862a5-8d20-4db4-a8c0-a87c01c6d29e",
             "Value": {
                 "id": "98ee479d-0dc7-4dfa-a364-60a891a88a84",
@@ -667,6 +675,14 @@
             "Value": {
                 "id": "3079b017-f524-4961-92e8-b9fe30d5211d",
                 "resourcePath": "sprites\\spr_player_jump_top\\spr_player_jump_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8c2239b0-1c08-48d3-88bc-9673ed32c6f0",
+            "Value": {
+                "id": "74b34930-11b1-445d-8a09-547d0a0d0c36",
+                "resourcePath": "sprites\\spr_player_rifle_collectable\\spr_player_rifle_collectable.yy",
                 "resourceType": "GMSprite"
             }
         },
