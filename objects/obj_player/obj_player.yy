@@ -169,7 +169,7 @@
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
-            "collisionObjectId": "2ac466e2-e8bb-45f7-9eb5-4bc3415b3667",
+            "collisionObjectId": "0e2442b4-f7cd-487b-b425-4eeccfc6b31c",
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "a5956529-f6c5-4499-a158-5924bf94676f"

@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0e2442b4-f7cd-487b-b425-4eeccfc6b31c",
+            "Value": {
+                "id": "ea31cd65-c1fd-4c81-83a2-ce941754f14b",
+                "resourcePath": "objects\\obj_rifle\\obj_rifle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0f0e0df3-f8e1-4655-8df4-d1d14a0e5db7",
             "Value": {
                 "id": "81c7a157-a409-43dd-883e-59e6ec75b89d",
@@ -794,7 +802,7 @@
             "Key": "b05277d3-9785-4432-bfeb-43a2a7e90803",
             "Value": {
                 "id": "cb53d839-3347-4a1d-a6ec-cd1c7349d732",
-                "resourcePath": "sprites\\spr_player_weap_run_top1\\spr_player_weap_run_top1.yy",
+                "resourcePath": "sprites\\spr_enemy1_run_top\\spr_enemy1_run_top.yy",
                 "resourceType": "GMSprite"
             }
         },
