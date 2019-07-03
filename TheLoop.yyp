@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "9f9029f3-5a25-4484-a085-b3c75218bba3",
+            "Value": {
+                "id": "f6cbf84a-dfa7-4fe5-a2df-c05736d1e758",
+                "resourcePath": "objects\\obj_weapon_ui\\obj_weapon_ui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a07a62c0-4902-44f9-b7c6-43882487a9de",
             "Value": {
                 "id": "2a3bd400-10a6-4822-b887-428582fa1ac1",
@@ -916,6 +924,14 @@
                 "id": "8c6c4fad-a028-4361-8b3d-156c82b6c8db",
                 "resourcePath": "views\\c43f2012-c8e4-47f1-9c3a-ccf5da849a90.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c583b754-77e8-4e26-bffa-05f50b0707f7",
+            "Value": {
+                "id": "e7d04437-0b1d-4050-90ca-a870a97daf20",
+                "resourcePath": "scripts\\make_shot\\make_shot.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1119,6 +1135,14 @@
             }
         },
         {
+            "Key": "edb3692c-7e89-4f41-b575-5507231f408c",
+            "Value": {
+                "id": "5c6e8d43-657f-4c54-8b2d-4505e95dae56",
+                "resourcePath": "objects\\obj_player_weapon\\obj_player_weapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "efd655bb-200a-428c-950d-4aba7231b38b",
             "Value": {
                 "id": "112908d9-0d71-4dd2-b09e-8aad2a0f63b4",
@@ -1220,7 +1244,8 @@
         "f5372368-8325-42cc-bb9f-f12731261182",
         "ae712bbf-42b4-4c6b-8894-81806cf22444",
         "f0fa275b-30a7-4973-9f16-0479e2b93c87",
-        "8a1e95a9-1c12-4c18-be2b-7b53010f604e"
+        "8a1e95a9-1c12-4c18-be2b-7b53010f604e",
+        "c583b754-77e8-4e26-bffa-05f50b0707f7"
     ],
     "tutorial": ""
 }
