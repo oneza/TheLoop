@@ -13,6 +13,7 @@ with (object_enemy_weapon)
 	event_perform(ev_create, 0)
 }
 flash = 0 //Flashing after hit
+range_of_fight = 300
 
 
 // 2 find player
@@ -49,8 +50,5 @@ start_y = y
 //speed_v=0;
 //image_xscale = 1;
 
-
-
-
-bullet_cooldown = room_speed/2;
-alarm[0] = bullet_cooldown;
+//bullet_cooldown = room_speed/2;
+//alarm[0] = bullet_cooldown;

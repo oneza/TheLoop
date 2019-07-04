@@ -19,7 +19,7 @@ switch(state){
 		{
 			path_start(patrol_path, patrol_speed, path_action_reverse, false)	
 		}
-		if distance_to_object(obj_player) < range_of_view and !collision_line(x, y, obj_player.x, obj_player.y, obj_collision, true, false)
+		if distance_to_object(obj_player) < range_of_view and !collision_line(object_enemy_weapon.x, object_enemy_weapon.y, obj_player.x, obj_player.y, obj_collision, true, false)
 		{
 			spot_player = true
 			path_end()
@@ -29,14 +29,17 @@ switch(state){
 	case 1: // fight
 		// -> 2 find player
 		
-		if collision_line(x, y, obj_player.x, obj_player.y, obj_collision, true, false)
+		if collision_line(object_enemy_weapon.x, object_enemy_weapon.y, obj_player.x, obj_player.y, obj_collision, true, false)
 		{
 			last_seen_x = obj_player.x
 			last_seen_y = obj_player.y
 			state = 2
 			
 		}
-		
+		if distance_to_object(obj_player) > range_of_fight
+		{
+			mp_potential_step_object(obj_player.x, obj_player.y, search_speed, obj_collision)
+		}
 		
 		// kill player
 		with (object_enemy_weapon)
@@ -47,7 +50,7 @@ switch(state){
 	case 2: // search player
 		//
 		mp_potential_step_object(last_seen_x, last_seen_y, search_speed, obj_collision)
-		if distance_to_object(obj_player) < range_of_view and !collision_line(x, y, obj_player.x, obj_player.y, obj_collision, true, false)
+		if distance_to_object(obj_player) < range_of_view and !collision_line(object_enemy_weapon.x, object_enemy_weapon.y, obj_player.x, obj_player.y, obj_collision, true, false)
 		{
 			alarm[0] = -1
 			chill_started = false
@@ -61,7 +64,7 @@ switch(state){
 		break
 	case 3:
 		mp_potential_step_object(start_x, start_y, patrol_speed, obj_collision)
-		if distance_to_object(obj_player) < range_of_view and !collision_line(x, y, obj_player.x, obj_player.y, obj_collision, true, false)
+		if distance_to_object(obj_player) < range_of_view and !collision_line(object_enemy_weapon.x, object_enemy_weapon.y, obj_player.x, obj_player.y, obj_collision, true, false)
 		{
 			state = 1	
 		}
