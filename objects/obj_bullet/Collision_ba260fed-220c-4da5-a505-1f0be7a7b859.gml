@@ -1,5 +1,7 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 66FC5003
-/// @DnDArgument : "code" "instance_destroy(self)"
+effect = instance_create_depth(other.x, other.y, depth, obj_blood_effect)
+effect.direction = direction
+with (effect)
+{
+	event_user(0)	
+}
 instance_destroy(self)
