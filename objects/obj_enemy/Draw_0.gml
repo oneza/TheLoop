@@ -9,5 +9,4 @@ if flash > 0
 }
 
 draw_text(x, y - 130, string(state))
-
-draw_text(x + 30, y - 130, string(alarm[0]))
+//draw_text(x + 30, y - 130, string(direction))
