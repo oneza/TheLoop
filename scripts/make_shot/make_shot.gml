@@ -2,6 +2,7 @@
 	yp = argument1
 	number_of_bullets_in_shot = argument2
 	precision = argument3
+	bullet_damage = argument4
 	for (var i = 0; i < number_of_bullets_in_shot; ++i) {
 			randomise()
 			random_11 = irandom(precision)
@@ -10,5 +11,5 @@
 			bullet.direction = image_angle - random_11;
 			bullet.image_angle = image_angle - random_11;
 			bullet.speed = 15;
-		
+			bullet.damage = bullet_damage
 	}

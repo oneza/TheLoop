@@ -23,5 +23,14 @@ speed_h=0;
 speed_v=0;
 image_xscale = 1;
 
+enemy_weapon = 0
+object_enemy_weapon = instance_create_depth(x, y, depth, obj_enemy_weapon)
+object_enemy_weapon.owner = id
+with (object_enemy_weapon)
+{
+	event_perform(ev_create, 0)
+}
+
+
 bullet_cooldown = room_speed/2;
 alarm[0] = bullet_cooldown;
