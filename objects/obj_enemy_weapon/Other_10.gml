@@ -16,7 +16,7 @@ if(alarm[0] <= 0 && current_capacity > 0 && left_button_unlock)
 				xp = x + 59 * cos(degtorad (image_angle - 18));
 				yp = y - 59 * sin(degtorad (image_angle - 18));
 			}
-			make_shot(xp, yp, number_of_bullets_in_shot, damage, 10)
+			make_shot(xp, yp, number_of_bullets_in_shot, damage, 10, obj_enemy_bullet)
 			alarm[0] = shoot_rate / 2;
 			current_capacity -= 1;
 			if current_capacity == 0

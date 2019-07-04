@@ -9,3 +9,4 @@ number_of_bullets_in_shot = obj_game.weapon[owner.enemy_weapon, 6]
 number_of_bullets_in_row = obj_game.weapon[owner.enemy_weapon, 7]
 
 left_button_unlock = true
+initial_image_angle = image_angle

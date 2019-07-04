@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "3a9ffece-8cd7-451f-b6e1-0ce4e47bbf0b",
+            "Value": {
+                "id": "36acb8b5-5eee-4fd4-b4be-479825f1a0dc",
+                "resourcePath": "paths\\pth_patrol1\\pth_patrol1.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "3b0cd764-6308-4a04-b073-a814785a8104",
             "Value": {
                 "id": "ae59ce07-da38-49b6-8360-9103d0055e21",

@@ -1,4 +1,4 @@
-if (object_exists(obj_player))
+if (object_exists(obj_player_weapon))
 {
 	draw_set_font(fn_default);
 	draw_set_halign(fa_left);
