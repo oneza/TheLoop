@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "1d1fea06-a1b2-4b83-88b6-0066c892639c",
+            "Value": {
+                "id": "e4148c0c-e781-403a-93dc-78d03739de1e",
+                "resourcePath": "views\\1d1fea06-a1b2-4b83-88b6-0066c892639c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1e3e0418-b4b0-4b12-93c7-35f5a8ac6a71",
             "Value": {
                 "id": "fe0cc28b-25a1-49d2-bcef-1a246409b94a",
@@ -452,6 +460,14 @@
                 "id": "6bb33d76-cb1a-4189-82f1-44a4237783e5",
                 "resourcePath": "views\\54e1d58d-6ae1-44af-be4d-45a8d114817e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5b538844-5e6b-478a-8ca9-0b0e85ddaac3",
+            "Value": {
+                "id": "9eae0108-b1de-4e5e-9f79-f694f89c4b69",
+                "resourcePath": "sprites\\spr_dialogbox\\spr_dialogbox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -940,6 +956,14 @@
                 "id": "8c6c4fad-a028-4361-8b3d-156c82b6c8db",
                 "resourcePath": "views\\c43f2012-c8e4-47f1-9c3a-ccf5da849a90.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c487f197-a364-43e1-9eb7-89876fae6420",
+            "Value": {
+                "id": "b1dddab3-f43e-48a0-9f46-cc46d3ed21b4",
+                "resourcePath": "objects\\obj_chiefdialog\\obj_chiefdialog.yy",
+                "resourceType": "GMObject"
             }
         },
         {
