@@ -123,9 +123,3 @@ if (state == "roll")
 depth_set()
 #endregion
 
-
-distance = sqrt(sqr(obj_cheef.x - obj_player.x) + sqr(obj_cheef.y - obj_player.y));
-show_debug_message(distance);
-if(distance <= 100){
-	instance_create_depth(0, 0, -10000, obj_chiefdialog);
-} else instance_destroy(obj_chiefdialog); 
