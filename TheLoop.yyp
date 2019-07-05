@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "c6ce2385-a7b8-4808-8360-7c53409cf632",
+            "Value": {
+                "id": "21318afa-5108-483e-940e-3ff4062711da",
+                "resourcePath": "objects\\obj_time_dilation_effect\\obj_time_dilation_effect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c7d8c7b6-bcae-46de-bff3-8d8ce39f61e9",
             "Value": {
                 "id": "7d945c89-4350-4df0-b56d-c7d2e782fcf1",
