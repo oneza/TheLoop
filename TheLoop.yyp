@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "649c1dae-b9ba-48f4-931e-f8528e7574e0",
+            "Value": {
+                "id": "efe75694-adba-4e24-bd84-ebcfb92e24d0",
+                "resourcePath": "sprites\\spr_dialog_player11\\spr_dialog_player11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "64a17aba-6630-45b8-8205-81185cfd6f8c",
             "Value": {
                 "id": "bd1ea01d-88df-42a1-a6ac-89e9048753df",
@@ -867,6 +875,14 @@
             "Value": {
                 "id": "e9720459-f750-4288-b4b5-4b76a178aef2",
                 "resourcePath": "sprites\\spr_mmbutton\\spr_mmbutton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a8290ee4-7d6f-4272-a483-88421f3e1516",
+            "Value": {
+                "id": "8da9bdcf-4b56-4ffc-9a67-59b9e827dac5",
+                "resourcePath": "sprites\\spr_dialog_player\\spr_dialog_player.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1307,6 +1323,14 @@
             "Value": {
                 "id": "943a3ad2-9f15-48de-84e3-a2853686eeb0",
                 "resourcePath": "sprites\\spr_pause_resumebutton\\spr_pause_resumebutton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fc4090ae-8eab-476b-810e-d032adc38eb9",
+            "Value": {
+                "id": "cff4cad3-8369-4c20-84e5-fa26a9058671",
+                "resourcePath": "sprites\\spr_dialog_player1\\spr_dialog_player1.yy",
                 "resourceType": "GMSprite"
             }
         },
