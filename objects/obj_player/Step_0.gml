@@ -53,7 +53,7 @@ if (state == "move" or state == "standing")
 		x += -sign(x - mouse_x) * 10
 	}
 	
-	if (key_space)
+	if (key_space and (move_x != 0 or move_y != 0))
 	{
 		move_roll = move_x
 		image_index = 0;
