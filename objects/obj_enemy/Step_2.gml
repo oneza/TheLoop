@@ -1,3 +1,11 @@
+if !obj_player.first_skillActive or (obj_player.first_skillActive and distance < obj_player.first_skillRange)
+{
+	image_speed = 1	
+}
+else
+{
+	image_speed = 0	
+}
 
 
 if direction >= 45 and direction <= 135 

@@ -1,0 +1,1 @@
+part_emitter_stream(partHit_sys, partHit_emit, partHit, 0);

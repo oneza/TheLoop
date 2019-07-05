@@ -1,4 +1,5 @@
 en_health = 100
+frozen = false
 state = 0 //patrol = 0 //fight = 1 // find player = 2 // return to patrol = 3
 // 0 patrol
 patrol_path = pth_patrol1

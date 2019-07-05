@@ -10,4 +10,5 @@ draw_self();
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "-20"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" "direction_state"
+/// @DnDArgument : "caption" "first_skillActive"
+/// @DnDArgument : "var" "alarm[1] "

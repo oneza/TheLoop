@@ -70,5 +70,3 @@ global.gameIsPaused = false;
 screenShot = -1
 allObjects[0, 0] = noone;
 
-globalvar skillActive;
-skillActive = false;
