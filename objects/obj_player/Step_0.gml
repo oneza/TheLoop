@@ -4,12 +4,12 @@ key_left  = keyboard_check(ord("A"));
 key_up    = keyboard_check(ord("W"));
 key_down  = keyboard_check(ord("S"));
 key_space = keyboard_check_pressed(vk_space);
-
+var move_x = (key_right - key_left);
+var move_y = (key_down - key_up);
 
 if (state == "move" or state == "standing")
 {
-	var move_x = (key_right - key_left);
-	var move_y = (key_down - key_up);
+
 
 	speed_h = move_x * spdh;
 	speed_v = move_y * spdv;
@@ -45,7 +45,6 @@ if (state == "move" or state == "standing")
 	{
 		change_side = true	
 	}
-
 	if change_side
 	{
 		change_side = false
@@ -56,6 +55,7 @@ if (state == "move" or state == "standing")
 	
 	if (key_space)
 	{
+		move_roll = move_x
 		image_index = 0;
 		state = "roll";	
 	}
@@ -63,16 +63,55 @@ if (state == "move" or state == "standing")
 
 if (state == "roll")
 {
-	image_speed = 0.6;
+	image_speed = 0.6
 	var jump_offset = 5
-	if !place_meeting(x + jump_offset, y, obj_collision)
-	{
-		if (image_xscale == 1) x += jump_offset;	
+	switch (direction_state) {
+	    case "right":
+			if place_meeting(x + jump_offset * move_roll, y, obj_collision) 
+			{
+				while !place_meeting(x + sign(jump_offset * move_roll), y, obj_collision) 
+				{
+					x += sign(jump_offset * move_roll)
+				}
+				jump_offset = 0;
+			}
+			x += jump_offset * move_roll
+			image_xscale = move_roll
+	        break;
+	    case "bottom":
+			if place_meeting(x, y + jump_offset, obj_collision) 
+			{
+				while !place_meeting(x, y + sign(jump_offset), obj_collision) 
+				{
+					y += sign(jump_offset)
+				}
+				jump_offset = 0;
+			}
+	        y += jump_offset
+	        break;
+	    case "top":
+			if place_meeting(x, y + jump_offset, obj_collision) 
+			{
+				while !place_meeting(x, y + sign(jump_offset), obj_collision) 
+				{
+					y += sign(jump_offset)
+				}
+				jump_offset = 0;
+			}		
+	        y -= jump_offset
+	        break;
 	}
-	if !place_meeting(x - jump_offset, y, obj_collision)
-	{
-		if (image_xscale == -1) x -= jump_offset;
-	}
+	
+	
+	
+	//if !place_meeting(x + jump_offset, y, obj_collision)
+	//{
+	//	if (image_xscale == 1) x += jump_offset;	
+	//}
+	//if !place_meeting(x - jump_offset, y, obj_collision)
+	//{
+	//	if (image_xscale == -1) x -= jump_offset;
+	//}
 	
 	
 	//if (keyboard_check_pressed(ord("A"))) x -= spdh * 10;
