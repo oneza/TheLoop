@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "615c27ad-31b8-4d1e-853e-6111e8d3fa2a",
+            "Value": {
+                "id": "12eeecdf-8859-4213-84bc-47f9dea62ec4",
+                "resourcePath": "objects\\obj_chiefdialog_1\\obj_chiefdialog_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "61735ffc-c533-49ac-a832-f10501a428a4",
             "Value": {
                 "id": "a8f70f38-5841-4ea4-9cfe-2061332d2e1e",

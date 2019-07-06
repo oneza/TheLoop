@@ -12,7 +12,8 @@
         "b559747e-be65-4d57-899c-3a6bc8141047",
         "1487b497-3ce9-4106-b825-d6245f402954",
         "8e4a044c-5ff3-4477-ac55-896b2ce7fcd6",
-        "c487f197-a364-43e1-9eb7-89876fae6420"
+        "c487f197-a364-43e1-9eb7-89876fae6420",
+        "615c27ad-31b8-4d1e-853e-6111e8d3fa2a"
     ],
     "filterType": "GMObject",
     "folderName": "shefroom",
