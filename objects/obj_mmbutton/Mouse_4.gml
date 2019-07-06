@@ -1,7 +1,7 @@
 switch(action){
 	case 0:
 		audio_play_sound(snd_buttonclick, 10, false);
-		room_goto(rm_shefdialog);
+		room_goto(rm_shefdialog_1);
 		break;
 		
 	case 1:
