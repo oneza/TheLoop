@@ -10,7 +10,8 @@
         "4086449b-9790-445d-8db9-25cbc5ee9e05",
         "2e3c6955-bb38-44c1-be4a-c4172ef6527c",
         "57d4a600-9e5d-4a71-a932-53ffe9ba9217",
-        "eea283f2-737e-499e-8e5e-75a7ba44acfe"
+        "eea283f2-737e-499e-8e5e-75a7ba44acfe",
+        "de0fd29d-fbd0-47d9-bdf4-5e6a866abfd8"
     ],
     "filterType": "GMSprite",
     "folderName": "lvl 2",

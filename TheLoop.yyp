@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "459b3f86-a3f9-4d2e-a33f-e8e2fc64b99f",
+            "Value": {
+                "id": "db5a7266-6f12-4714-95a0-eaa463235b8f",
+                "resourcePath": "views\\459b3f86-a3f9-4d2e-a33f-e8e2fc64b99f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "46905183-41f4-4799-8bcf-a1748a1e7d7d",
             "Value": {
                 "id": "39b4a06a-a55a-494a-83be-cf7aa4a66f4e",
@@ -1039,6 +1047,22 @@
             }
         },
         {
+            "Key": "a976681b-9ac6-44bf-ab46-28a195c55457",
+            "Value": {
+                "id": "87a365ab-ccc8-44b3-8b3e-99e6fd311ee8",
+                "resourcePath": "sprites\\spr_the_vaza\\spr_the_vaza.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aafb40e8-5fca-438f-ad32-0cd8ab193e31",
+            "Value": {
+                "id": "81d7a057-83b7-482d-8294-77239e112944",
+                "resourcePath": "sprites\\spr_boss\\spr_boss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ac258e3c-0d8f-42a1-819a-6799a1be1c9f",
             "Value": {
                 "id": "8dafefbb-ae3b-4039-bafe-b613da260074",
@@ -1287,6 +1311,14 @@
             }
         },
         {
+            "Key": "d06309b0-49b1-45fb-afb4-5c4824632a3f",
+            "Value": {
+                "id": "57015f7b-02bd-4d9a-96c9-88909d7adad0",
+                "resourcePath": "rooms\\rm_lvl_2_2\\rm_lvl_2_2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d06423e6-6bd5-4596-b2d5-3ffdf423a8b1",
             "Value": {
                 "id": "7fd36570-7511-4b5b-9c8c-8910a5200c23",
@@ -1348,6 +1380,14 @@
                 "id": "6ad43519-a13c-4472-80b0-a198c156d3c8",
                 "resourcePath": "views\\db28c167-9bde-407e-95c7-ab705d340641.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "de0fd29d-fbd0-47d9-bdf4-5e6a866abfd8",
+            "Value": {
+                "id": "8a709823-c9dc-4d1e-aa1d-1ee387a8b460",
+                "resourcePath": "sprites\\spr_nxt_lvl_door\\spr_nxt_lvl_door.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
