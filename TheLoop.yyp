@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0be33569-fb8f-4877-bdac-fe50377018b3",
+            "Value": {
+                "id": "05e11438-625f-4e59-873c-ebe759c156ea",
+                "resourcePath": "objects\\obj_shef_dialog_music\\obj_shef_dialog_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d0cd967-6433-4da1-9475-b5d379c9f954",
             "Value": {
                 "id": "0d9db780-faa7-495f-be28-c3e302df1ed6",
@@ -1364,6 +1372,14 @@
                 "id": "7fd36570-7511-4b5b-9c8c-8910a5200c23",
                 "resourcePath": "views\\d06423e6-6bd5-4596-b2d5-3ffdf423a8b1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d0770043-abd4-4615-b147-9c024958aff0",
+            "Value": {
+                "id": "34307233-0a12-4f6f-9dff-3f9090081a36",
+                "resourcePath": "sounds\\snd_shef_dialog\\snd_shef_dialog.yy",
+                "resourceType": "GMSound"
             }
         },
         {
