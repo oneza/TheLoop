@@ -1,8 +1,8 @@
 	xp = argument0
 	yp = argument1
 	number_of_bullets_in_shot = argument2
-	precision = argument3
-	bullet_damage = argument4
+	bullet_damage = argument3
+	precision = argument4
 	obj_bullet_ = argument5
 	for (var i = 0; i < number_of_bullets_in_shot; ++i) {
 			randomise()
