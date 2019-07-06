@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "44750550-455f-4efe-b406-68f50dd823ac",
+            "Value": {
+                "id": "b1254c3d-4871-47fe-a3a7-5d212943bfd9",
+                "resourcePath": "fonts\\fn_dialogue\\fn_dialogue.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "447c5864-02ff-43c3-8e51-e082fda8e753",
             "Value": {
                 "id": "f7b38113-75d2-4760-868c-926f6eaef2ed",
@@ -530,7 +538,7 @@
             "Key": "4e257718-fa90-45d3-97f2-45fa381dbc9c",
             "Value": {
                 "id": "d1784f01-2dc3-44d4-b17d-b74db46f9144",
-                "resourcePath": "objects\\obj_dialog\\obj_dialog.yy",
+                "resourcePath": "objects\\obj_fade_transition\\obj_fade_transition.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1443,6 +1451,14 @@
             "Value": {
                 "id": "bfef37ba-ce8e-45d3-b354-69aea64b75a6",
                 "resourcePath": "sprites\\spr_water_stand\\spr_water_stand.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ef803ace-675b-4e77-b54a-2142335f342b",
+            "Value": {
+                "id": "87c3e5ff-9a1b-47e7-8286-add67682b15b",
+                "resourcePath": "sprites\\spr_dialogue_collision\\spr_dialogue_collision.yy",
                 "resourceType": "GMSprite"
             }
         },
