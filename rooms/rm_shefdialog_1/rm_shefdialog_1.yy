@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_shefdialog",
+    "name": "rm_shefdialog_1",
     "id": "705e8670-99ef-4bf4-a8cf-82e48038d382",
     "creationCodeFile": "",
     "inheritCode": false,
