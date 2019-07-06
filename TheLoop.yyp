@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "2b33d4f4-a3d9-42f9-b2e3-092b4f995776",
+            "Value": {
+                "id": "b8ce4d40-f7c9-4ea9-a039-2f4d5378223c",
+                "resourcePath": "views\\2b33d4f4-a3d9-42f9-b2e3-092b4f995776.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2b6de5c8-5a46-4d2d-b27d-e510a284b23e",
             "Value": {
                 "id": "da2a8168-5e82-493a-bc3f-9d4e0f7e2937",
@@ -516,6 +524,14 @@
                 "id": "6db77b30-8537-4f66-87eb-23f66982c62c",
                 "resourcePath": "views\\ce7e577a-3403-428e-b284-aa2937783d9c-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "60638647-454f-47a3-9058-cf016aa94c57",
+            "Value": {
+                "id": "7e6fdb31-561e-498d-a514-0372c9c8a5d7",
+                "resourcePath": "sprites\\spr_dialog_chef\\spr_dialog_chef.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
