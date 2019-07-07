@@ -263,14 +263,6 @@
             }
         },
         {
-            "Key": "23660e39-2285-4602-be8f-828ceb981bfa",
-            "Value": {
-                "id": "3d620b8b-272c-4936-bc55-0e9a90a93962",
-                "resourcePath": "objects\\obj_player_weapon_shotgun\\obj_player_weapon_shotgun.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2534a320-1561-4dee-857a-b76ca1972839",
             "Value": {
                 "id": "b2743dcc-5849-4343-8cd0-97c53688964a",
@@ -292,14 +284,6 @@
                 "id": "d070293c-1cb7-45f7-9be2-db1b840f6de0",
                 "resourcePath": "sprites\\spr_pause_mmbutton\\spr_pause_mmbutton.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2b102844-b3a3-43c8-95d5-ebffb630f41e",
-            "Value": {
-                "id": "58cc8279-a253-4c03-8ac4-8bccecbd3e21",
-                "resourcePath": "objects\\obj_player_weap\\obj_player_weap.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1508,14 +1492,6 @@
                 "id": "aeda1d42-a7b4-4127-b7c9-cc0e281eb922",
                 "resourcePath": "sounds\\snd_lvl_1\\snd_lvl_1.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "e26f7b8f-aa0d-42db-a106-798e3a5050c8",
-            "Value": {
-                "id": "bc9272f4-e8b9-414e-abc7-78083409d623",
-                "resourcePath": "objects\\obj_player_weapon_rifle\\obj_player_weapon_rifle.yy",
-                "resourceType": "GMObject"
             }
         },
         {
