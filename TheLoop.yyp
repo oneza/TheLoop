@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "594c47c6-9880-42bd-afef-56f1b6b99eab",
+            "Value": {
+                "id": "64815af9-2687-481c-ad7c-a3e253bda99b",
+                "resourcePath": "sprites\\spr_dialog_boss\\spr_dialog_boss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b538844-5e6b-478a-8ca9-0b0e85ddaac3",
             "Value": {
                 "id": "9eae0108-b1de-4e5e-9f79-f694f89c4b69",
@@ -1603,6 +1611,14 @@
             "Value": {
                 "id": "59ee8a92-c1a3-45e2-9dc5-ae911d720b18",
                 "resourcePath": "sprites\\spr_player_weap_stand_right\\spr_player_weap_stand_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d5d3702d-98d0-475d-8384-69ba1814a842",
+            "Value": {
+                "id": "278033f3-56c0-4326-b7fb-7c446f3afbfc",
+                "resourcePath": "sprites\\spr_policeman\\spr_policeman.yy",
                 "resourceType": "GMSprite"
             }
         },
