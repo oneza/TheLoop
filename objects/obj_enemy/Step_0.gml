@@ -10,11 +10,6 @@
 ////	hspeed = spdh;
 ////}
 ////#endregion
-if(dying){
-    sprite_index = spr_enemy1_death;
-    exit;
-}
-
 distance = sqrt(sqr(x - obj_player.x) + sqr(y - obj_player.y));
 #region Behaviour
 if !obj_player.first_skillActive or (obj_player.first_skillActive and distance < obj_player.first_skillRange)

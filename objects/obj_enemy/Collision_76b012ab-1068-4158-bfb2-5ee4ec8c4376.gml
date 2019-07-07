@@ -6,5 +6,9 @@ if state == 0 or state == 3
 	state = 2
 }
 en_health -= other.damage;
-if (en_health <= 0) dying = true;
+if (en_health <= 0) 
+{
+	instance_create_depth(x, y, depth, obj_enemy_dead)
+	instance_destroy()
+}
 flash = 3
