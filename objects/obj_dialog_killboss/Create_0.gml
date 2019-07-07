@@ -10,7 +10,7 @@ dialog_text[0, 1] = "Что ж, я давно готов.  Делай, что д
 dialog_text[0, 2] = "Так точно"
 dialog_text[0, 3] = 1
 
-dialog_character[0, 0] = spr_dialog_chef  /// left portrait 
+dialog_character[0, 0] = spr_dialog_boss  /// left portrait 
 dialog_character[0, 1] = spr_dialog_player1  /// right portrait
  
 
