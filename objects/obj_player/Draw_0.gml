@@ -10,5 +10,4 @@ draw_self();
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "-20"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" "weapon_current_capacity[current_weapon]"
-/// @DnDArgument : "var" "obj_player_weapon.current_capacity"
+/// @DnDArgument : "caption" "100 - obj_player.alarm[1]/obj_player.ability_cooldown * 100,"
