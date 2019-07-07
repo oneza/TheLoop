@@ -8,5 +8,5 @@ if flash > 0
 	shader_reset()
 }
 
-draw_text(x, y - 130, string(en_health))
+//draw_text(x, y - 130, string(en_health))
 //draw_text(x + 30, y - 130, string(direction))

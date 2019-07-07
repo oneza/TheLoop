@@ -1,50 +1,50 @@
 {
-    "id": "3a9ffece-8cd7-451f-b6e1-0ce4e47bbf0b",
+    "id": "7ca0b125-a63b-4c71-8b5d-eee5cf9eebd3",
     "modelName": "GMPath",
     "mvc": "1.0",
-    "name": "pth_patrol1",
+    "name": "pth_patrol6",
     "closed": false,
     "hsnap": 0,
     "kind": 1,
     "points": [
         {
-            "id": "9864a791-2b93-4ce4-b6ba-00bb1eb23b63",
+            "id": "6805d9a8-d1eb-49a4-828f-5e6b3ece9bbb",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 4832,
+            "y": 2528,
+            "speed": 100
+        },
+        {
+            "id": "442e5e7a-0bb7-4566-b792-99c2aa0b23ee",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 5088,
+            "y": 2528,
+            "speed": 100
+        },
+        {
+            "id": "09bdc3e1-4ea6-48a0-96d0-52b9f93fada5",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 5152,
+            "y": 2496,
+            "speed": 100
+        },
+        {
+            "id": "7368e32a-a97d-4c75-b25b-de16b502284c",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
             "x": 5216,
-            "y": 3040,
+            "y": 2432,
             "speed": 100
         },
         {
-            "id": "855d4169-96af-41e5-8ab9-d4dcc0daa41b",
+            "id": "55d5e40b-8cce-4827-a9ab-477aa4af9434",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 5760,
-            "y": 3040,
-            "speed": 100
-        },
-        {
-            "id": "47d038b5-75f5-4c0b-911d-3bff2a494cd2",
-            "modelName": "GMPathPoint",
-            "mvc": "1.0",
-            "x": 5888,
-            "y": 2976,
-            "speed": 100
-        },
-        {
-            "id": "b696b229-a9a4-46e0-bb74-dda2adf1d03a",
-            "modelName": "GMPathPoint",
-            "mvc": "1.0",
-            "x": 5920,
-            "y": 2880,
-            "speed": 100
-        },
-        {
-            "id": "85252663-82ec-4807-947a-33c04cf8a40f",
-            "modelName": "GMPathPoint",
-            "mvc": "1.0",
-            "x": 5920,
-            "y": 1920,
+            "x": 5216,
+            "y": 2272,
             "speed": 100
         }
     ],
