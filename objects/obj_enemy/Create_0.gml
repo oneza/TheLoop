@@ -16,6 +16,7 @@ with (object_enemy_weapon)
 flash = 0 //Flashing after hit
 range_of_fight = 300
 
+dying = false;
 
 // 2 find player
 search_speed = 3.5

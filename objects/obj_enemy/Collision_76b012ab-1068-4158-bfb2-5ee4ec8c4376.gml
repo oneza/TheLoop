@@ -6,5 +6,5 @@ if state == 0 or state == 3
 	state = 2
 }
 en_health -= other.damage;
-if (en_health <= 0) instance_destroy(self);
+if (en_health <= 0) dying = true;
 flash = 3
