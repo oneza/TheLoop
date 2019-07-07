@@ -68,7 +68,7 @@ weapon[2, 8] = weapon_precision.shotgun
 
 
 globalvar fakrestores;
-fakrestores = 25;
+fakrestores = 50;
 
 globalvar armorrestores;
 armorrestores = 50;
