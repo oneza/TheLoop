@@ -25,8 +25,8 @@ dialog_active_character[0, 2] = 0
 dialog_active_character[0, 3] = 0  
 dialog_active_character[0, 4] = 0  
 dialog_active_character[0, 5] = 0  
-dialog_active_character[0, 6] = 0  
-dialog_active_character[0, 7] = 1  
+dialog_active_character[0, 6] = 1  
+dialog_active_character[0, 7] = 0  
 //dialog_text[0, 1] = 
 //dialog_text[0, 1] = 
 
