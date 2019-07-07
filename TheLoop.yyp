@@ -815,6 +815,14 @@
             }
         },
         {
+            "Key": "594c47c6-9880-42bd-afef-56f1b6b99eab",
+            "Value": {
+                "id": "2bd65b3f-eca7-4ea5-877c-126faa698ed7",
+                "resourcePath": "sprites\\spr_dialog_boss\\spr_dialog_boss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a695860-4427-45c2-b415-537172163b86",
             "Value": {
                 "id": "cbba739e-4b51-4724-ae42-149d6e2b7458",
@@ -1855,14 +1863,6 @@
             }
         },
         {
-            "Key": "d61ea095-9ad2-44af-932c-cdf95ef695b9",
-            "Value": {
-                "id": "537d30db-aa3b-4be6-b548-c292822f8af2",
-                "resourcePath": "views\\d61ea095-9ad2-44af-932c-cdf95ef695b9.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "d8f88878-c21b-4080-9c29-2442a62375cd",
             "Value": {
                 "id": "1701d5e6-354e-4df8-8776-5ea99fdd07e6",
@@ -2012,14 +2012,6 @@
                 "id": "4dca9e9f-2f0b-4a90-bd37-2f062cde059d",
                 "resourcePath": "sprites\\spr_enemy1_death\\spr_enemy1_death.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e907dd96-0c30-4d49-b9f6-59d75312012b",
-            "Value": {
-                "id": "c23022c5-d55d-4470-8883-c5e70aaf5d5e",
-                "resourcePath": "views\\e907dd96-0c30-4d49-b9f6-59d75312012b.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
