@@ -1,4 +1,4 @@
-if show_dialog
+ if show_dialog
 {
 	draw_set_font(fn_dialogue);
 	draw_set_color(c_white);

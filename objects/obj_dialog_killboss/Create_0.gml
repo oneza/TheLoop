@@ -6,8 +6,8 @@ dialog_number = 0
 
 // 1-1
 dialog_text[0, 0] = "Я знал, что ты придешь..."
-dialog_text[0, 1] = "Что ж, я давно готов к этому, делай, что требуется…"
-dialog_text[0, 2] = "Так точно!"
+dialog_text[0, 1] = "Что ж, я давно готов.  Делай, что должно…"
+dialog_text[0, 2] = "Так точно"
 dialog_text[0, 3] = 1
 
 dialog_character[0, 0] = spr_dialog_chef  /// left portrait 

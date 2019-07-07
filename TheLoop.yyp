@@ -1695,6 +1695,14 @@
             }
         },
         {
+            "Key": "e8bc4ccd-765a-40c4-9245-8c85b08421e9",
+            "Value": {
+                "id": "4dca9e9f-2f0b-4a90-bd37-2f062cde059d",
+                "resourcePath": "sprites\\spr_enemy1_death\\spr_enemy1_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e91149ce-359a-4c75-93da-e887a3005ab1",
             "Value": {
                 "id": "c35eee01-bb5e-4f3d-aff1-bfc3fa69c38d",
