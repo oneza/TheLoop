@@ -743,14 +743,6 @@
             }
         },
         {
-            "Key": "4b41d0ee-081e-4a2d-af7d-6c33eeaf18ee",
-            "Value": {
-                "id": "55175392-514b-49fa-a45e-e2d4ad93bdff",
-                "resourcePath": "objects\\dfg\\dfg.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4c9c483b-248f-4422-b199-976a99994aa3",
             "Value": {
                 "id": "ddcb0511-7882-4fbd-9dc9-518a6ba886a9",
@@ -1036,14 +1028,6 @@
                 "id": "c16c3ae5-f513-4edb-8f12-6c73432a5310",
                 "resourcePath": "paths\\pth_patrol7114\\pth_patrol7114.yy",
                 "resourceType": "GMPath"
-            }
-        },
-        {
-            "Key": "704e5584-b8bc-4a21-9705-f546112755a1",
-            "Value": {
-                "id": "9304cdd7-34d4-47c4-960c-e87c2b04000c",
-                "resourcePath": "objects\\obj_muz_lvl_11\\obj_muz_lvl_11.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1663,14 +1647,6 @@
             }
         },
         {
-            "Key": "c0e767fc-b736-44e3-af8d-ed0958062783",
-            "Value": {
-                "id": "f8614494-2f09-4b7f-8ece-3fd998d6d82e",
-                "resourcePath": "objects\\obj_muz_shef_dialog21\\obj_muz_shef_dialog21.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c32b12ec-e079-4d02-86c2-bbc6a67ac459",
             "Value": {
                 "id": "56aa3832-9c94-4039-b605-95f2124afbec",
@@ -2011,14 +1987,6 @@
             "Value": {
                 "id": "e4a21f76-4952-471d-8e74-c5f2fdd085c1",
                 "resourcePath": "views\\e6b03231-b225-48ca-aafd-7af3d3d39774.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e7b70f8e-a03b-4697-b413-d85b9daaa3ec",
-            "Value": {
-                "id": "4bde7541-e4e5-434c-b7e5-6dc732c0f10b",
-                "resourcePath": "views\\e7b70f8e-a03b-4697-b413-d85b9daaa3ec.yy",
                 "resourceType": "GMFolder"
             }
         },
