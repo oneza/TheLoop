@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "075bf5e0-ce63-4144-9aa5-d0316e6a9fcb",
-            "Value": {
-                "id": "8df76073-ff25-4453-9be5-efb077dda152",
-                "resourcePath": "rooms\\rm_shefdialog_2\\rm_shefdialog_2.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "08f54578-e380-44fb-aea0-2413246c7c1e",
             "Value": {
                 "id": "f51f6362-2acd-4c8a-930f-543ff6c61dc5",
@@ -388,6 +380,14 @@
                 "id": "ee3f0d8d-36cc-4ea6-93f4-cd460f71ff07",
                 "resourcePath": "views\\316cfc74-fc85-4d5a-8b75-1a2a0b9332b1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "33898598-7b40-4f78-b46d-876f2fe99fdf",
+            "Value": {
+                "id": "7821584b-da69-4695-8cc2-d0aa86c139d2",
+                "resourcePath": "rooms\\rm_shefdialog_2\\rm_shefdialog_2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -963,6 +963,14 @@
             "Value": {
                 "id": "430fb94d-4d39-46e2-8169-5ab7362e89ad",
                 "resourcePath": "rooms\\rm_mainmenu\\rm_mainmenu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "93b9c9af-a6f4-4fbb-898d-79ab6009337b",
+            "Value": {
+                "id": "37532355-cd04-42b8-96ee-abf4d92d8468",
+                "resourcePath": "rooms\\rm_shefdialog_3\\rm_shefdialog_3.yy",
                 "resourceType": "GMRoom"
             }
         },
