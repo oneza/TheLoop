@@ -1,8 +1,12 @@
 if(alarm[0] <= 0 && current_capacity > 0 && left_button_unlock)
 {
-	//if  number_of_bullets_in_row > 1
-	//{
-		audio_play_sound(snd_shot, 10, false)
+	if  (number_of_bullets_in_row == 3)
+	{
+		for (i = 0; i < 2; i++)
+			{
+				audio_play_sound(snd_shot, 10, false)
+			}
+	}
 		left_button_unlock = false
 		bullets_shot = 1
 			var xp, yp;
