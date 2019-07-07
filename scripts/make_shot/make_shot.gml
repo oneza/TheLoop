@@ -5,6 +5,7 @@
 	precision = argument4
 	obj_bullet_ = argument5
 	for (var i = 0; i < number_of_bullets_in_shot; ++i) {
+			audio_play_sound(snd_shot, 10, false)
 			randomise()
 			random_11 = irandom(precision)
 			random_11 -= precision / 2
