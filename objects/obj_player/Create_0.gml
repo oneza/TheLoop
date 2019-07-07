@@ -29,4 +29,4 @@ mouse_last_position = sign(x - mouse_x)
 first_skillActive = false;
 first_skillRange = 450
 ability_duration = room_speed * 10;
-ability_cooldown = room_speed * 60;
+ability_cooldown = room_speed * 30;
