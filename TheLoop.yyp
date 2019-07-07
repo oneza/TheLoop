@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "0d0f917a-89d3-4fb5-ab5b-a105fe0701c5",
+            "Value": {
+                "id": "00e21532-9bae-4b75-8701-556720709fbe",
+                "resourcePath": "objects\\obj_muz_shef_dialog2\\obj_muz_shef_dialog2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e223858-5f97-45f4-95b5-beb318b43d91",
             "Value": {
                 "id": "fe59b74a-5d36-4dad-b0b9-0c5513b12adc",
@@ -660,6 +668,14 @@
                 "id": "9eae0108-b1de-4e5e-9f79-f694f89c4b69",
                 "resourcePath": "sprites\\spr_dialogbox\\spr_dialogbox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5b98d6a4-10ef-4449-84bc-3b97185f819e",
+            "Value": {
+                "id": "6ca146d2-e4d1-406b-9f07-f98a3895bc11",
+                "resourcePath": "sounds\\snd_canalization\\snd_canalization.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1375,6 +1391,14 @@
             }
         },
         {
+            "Key": "bdf8d2e4-7570-4564-997e-8936874861a9",
+            "Value": {
+                "id": "f83ac286-0bdb-446b-bd58-bfee0dd3a8b8",
+                "resourcePath": "sounds\\snd_shef_dialog3\\snd_shef_dialog3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c32b12ec-e079-4d02-86c2-bbc6a67ac459",
             "Value": {
                 "id": "56aa3832-9c94-4039-b605-95f2124afbec",
@@ -1436,6 +1460,14 @@
                 "id": "7d945c89-4350-4df0-b56d-c7d2e782fcf1",
                 "resourcePath": "objects\\obj_sheffroom_kover\\obj_sheffroom_kover.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c8875818-4ed4-458e-b4c3-1cdd569160b6",
+            "Value": {
+                "id": "c03934ed-a47f-433d-bc14-e3c02c70fd95",
+                "resourcePath": "sounds\\snd_shef_dialog2\\snd_shef_dialog2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
