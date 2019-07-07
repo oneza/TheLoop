@@ -10,5 +10,5 @@ draw_self();
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "-20"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" "first_skillActive"
-/// @DnDArgument : "var" "alarm[1] "
+/// @DnDArgument : "caption" "weapon_current_capacity[current_weapon]"
+/// @DnDArgument : "var" "obj_player_weapon.current_capacity"

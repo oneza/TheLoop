@@ -16,6 +16,7 @@ if bullets_shot < number_of_bullets_in_row && capacity > 0
 			make_shot(xp, yp, number_of_bullets_in_shot, damage, precision, obj_bullet)
 			alarm[0] = shoot_rate / 2;
 			current_capacity -= 1;
+			obj_player.weapon_current_capacity[current_weapon] -= 1
 			if bullets_shot == number_of_bullets_in_row
 			{
 				alarm[0] = shoot_rate

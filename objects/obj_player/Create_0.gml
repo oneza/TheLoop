@@ -10,8 +10,13 @@ state = "standing"
 direction_state = "right"
 //weapon
 current_weapon = 0;
+weapon_total_ammo[0] = 99
+weapon_total_ammo[1] = 0
+weapon_total_ammo[2] = 0
+weapon_current_capacity[0] = 12 // secondary
+weapon_current_capacity[1] = 1 // primary
+weapon_current_capacity[2] = 1
 object_player_weapon = instance_create_depth(x, y, obj_player.depth, obj_player_weapon)
-
 //hp
 player_hp = 85;
 player_armor = 70;
