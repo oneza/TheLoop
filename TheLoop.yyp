@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "1d658519-8eb7-4b20-883b-d691499d66f2",
+            "Value": {
+                "id": "887a44d5-c6be-414a-af8a-a7de1cfd30f1",
+                "resourcePath": "objects\\obj_muz_lvl_2\\obj_muz_lvl_2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e3e0418-b4b0-4b12-93c7-35f5a8ac6a71",
             "Value": {
                 "id": "fe0cc28b-25a1-49d2-bcef-1a246409b94a",
@@ -1867,6 +1875,14 @@
             "Value": {
                 "id": "1701d5e6-354e-4df8-8776-5ea99fdd07e6",
                 "resourcePath": "objects\\obj_ammo\\obj_ammo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d92e54ba-d540-4788-a682-2938f95588bb",
+            "Value": {
+                "id": "a13ccae5-c2ea-4292-ab23-c4191451e0b5",
+                "resourcePath": "objects\\obj_muz_shef_dialog3\\obj_muz_shef_dialog3.yy",
                 "resourceType": "GMObject"
             }
         },
