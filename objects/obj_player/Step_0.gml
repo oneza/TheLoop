@@ -7,6 +7,15 @@ key_space = keyboard_check_pressed(vk_space);
 var move_x = (key_right - key_left);
 var move_y = (key_down - key_up);
 
+if (room = rm_bossdialog_1)
+{
+	if (!instance_exists(obj_boss))
+	{
+		instance_create_depth(x, y, depth, obj_fade_transition)
+		room_goto(rm_shefdialog_3);
+	}
+}
+
 if (state == "move" or state == "standing")
 {
 
