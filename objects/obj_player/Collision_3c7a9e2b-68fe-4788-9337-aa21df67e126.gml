@@ -1,5 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 0223EA0D
-/// @DnDArgument : "code" "scr_itempickup(1);"
 scr_itempickup(1);
+weapon_current_capacity[1] = obj_game.weapon[1, 1]
+weapon_total_ammo[1] = 3 * weapon_current_capacity[1]

@@ -5,8 +5,8 @@ enum weapon_capacity {
 }
 enum weapon_damage {
 	pistol = 20,
-	rifle = 35,
-	shotgun = 15
+	rifle = 25,
+	shotgun = 10
 }
 enum weapon_reload_time { // * room_speed
 	pistol = 1,
@@ -28,6 +28,12 @@ enum weapon_number_of_bullets_in_row {
 	rifle = 3,
 	shotgun = 1
 }
+enum weapon_precision
+{
+	pistol = 10,
+	rifle = 5,
+	shotgun = 30
+}
  
 weapon[0, 0] = "pistol"
 weapon[0, 1] = weapon_capacity.pistol
@@ -37,6 +43,7 @@ weapon[0, 4] = weapon_shoot_rate.pistol
 weapon[0, 5] = spr_player_pist
 weapon[0, 6] = weapon_number_of_bullets_in_shot.pistol
 weapon[0, 7] = weapon_number_of_bullets_in_row.pistol
+weapon[0, 8] = weapon_precision.pistol
 
 weapon[1, 0] = "rifle"
 weapon[1, 1] = weapon_capacity.rifle
@@ -46,6 +53,7 @@ weapon[1, 4] = weapon_shoot_rate.rifle
 weapon[1, 5] = spr_player_rifle
 weapon[1, 6] = weapon_number_of_bullets_in_shot.rifle
 weapon[1, 7] = weapon_number_of_bullets_in_row.rifle
+weapon[1, 8] = weapon_precision.rifle
 
 weapon[2, 0] = "shotgun"
 weapon[2, 1] = weapon_capacity.shotgun
@@ -55,6 +63,7 @@ weapon[2, 4] = weapon_shoot_rate.shotgun
 weapon[2, 5] = spr_player_shotgun
 weapon[2, 6] = weapon_number_of_bullets_in_shot.shotgun
 weapon[2, 7] = weapon_number_of_bullets_in_row.shotgun
+weapon[2, 8] = weapon_precision.shotgun
 
 
 

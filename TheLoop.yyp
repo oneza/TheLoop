@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "075bf5e0-ce63-4144-9aa5-d0316e6a9fcb",
-            "Value": {
-                "id": "8df76073-ff25-4453-9be5-efb077dda152",
-                "resourcePath": "rooms\\rm_shefdialog_2\\rm_shefdialog_2.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "08f54578-e380-44fb-aea0-2413246c7c1e",
             "Value": {
                 "id": "f51f6362-2acd-4c8a-930f-543ff6c61dc5",
@@ -263,14 +255,6 @@
             }
         },
         {
-            "Key": "23660e39-2285-4602-be8f-828ceb981bfa",
-            "Value": {
-                "id": "3d620b8b-272c-4936-bc55-0e9a90a93962",
-                "resourcePath": "objects\\obj_player_weapon_shotgun\\obj_player_weapon_shotgun.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2534a320-1561-4dee-857a-b76ca1972839",
             "Value": {
                 "id": "b2743dcc-5849-4343-8cd0-97c53688964a",
@@ -292,14 +276,6 @@
                 "id": "d070293c-1cb7-45f7-9be2-db1b840f6de0",
                 "resourcePath": "sprites\\spr_pause_mmbutton\\spr_pause_mmbutton.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2b102844-b3a3-43c8-95d5-ebffb630f41e",
-            "Value": {
-                "id": "58cc8279-a253-4c03-8ac4-8bccecbd3e21",
-                "resourcePath": "objects\\obj_player_weap\\obj_player_weap.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -404,6 +380,14 @@
                 "id": "ee3f0d8d-36cc-4ea6-93f4-cd460f71ff07",
                 "resourcePath": "views\\316cfc74-fc85-4d5a-8b75-1a2a0b9332b1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "33898598-7b40-4f78-b46d-876f2fe99fdf",
+            "Value": {
+                "id": "7821584b-da69-4695-8cc2-d0aa86c139d2",
+                "resourcePath": "rooms\\rm_shefdialog_2\\rm_shefdialog_2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -551,6 +535,14 @@
             }
         },
         {
+            "Key": "496821cd-69d5-472c-b792-76b005d0f0cd",
+            "Value": {
+                "id": "f053b7e6-6600-4190-91f0-fd70abf536b7",
+                "resourcePath": "objects\\obj_dialog_chief\\obj_dialog_chief.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a7a67ab-e470-40ec-918d-ffe363afb7fe",
             "Value": {
                 "id": "70c5aefb-d51d-4521-9d1a-c0651b6d5d4c",
@@ -596,6 +588,14 @@
                 "id": "6bb33d76-cb1a-4189-82f1-44a4237783e5",
                 "resourcePath": "views\\54e1d58d-6ae1-44af-be4d-45a8d114817e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "566272d3-d5f9-409b-93fe-666f8be4043b",
+            "Value": {
+                "id": "46299a57-dc68-459b-8cfd-ae9c3749d1a5",
+                "resourcePath": "objects\\obj_dialog_bossRescue\\obj_dialog_bossRescue.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -684,6 +684,14 @@
                 "id": "a08925e7-5bdc-44ca-b058-0ebc9cb22aa5",
                 "resourcePath": "sprites\\spr_midwhile\\spr_midwhile.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6a142b5a-8333-4ca6-8159-255e1759e864",
+            "Value": {
+                "id": "98df9008-d49a-464c-8f05-d14b1b18a8e9",
+                "resourcePath": "objects\\obj_dialog_returnToChief\\obj_dialog_returnToChief.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -959,6 +967,14 @@
             }
         },
         {
+            "Key": "93b9c9af-a6f4-4fbb-898d-79ab6009337b",
+            "Value": {
+                "id": "37532355-cd04-42b8-96ee-abf4d92d8468",
+                "resourcePath": "rooms\\rm_shefdialog_3\\rm_shefdialog_3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "94c9bf6f-7f3c-420c-88d0-7b3303e09d74",
             "Value": {
                 "id": "38c87c25-72af-46e3-b148-602671c4005f",
@@ -1039,6 +1055,14 @@
             }
         },
         {
+            "Key": "9fa3d4a2-fd2b-4489-a083-0f5862de6b93",
+            "Value": {
+                "id": "37bf1cba-20bf-4457-9024-54ca4244bd3e",
+                "resourcePath": "objects\\obj_dialog_text1111111\\obj_dialog_text1111111.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a07a62c0-4902-44f9-b7c6-43882487a9de",
             "Value": {
                 "id": "2a3bd400-10a6-4822-b887-428582fa1ac1",
@@ -1071,10 +1095,34 @@
             }
         },
         {
+            "Key": "a411ab1f-6dd1-40f5-a5b0-88dd9e121b66",
+            "Value": {
+                "id": "f5c7f483-e511-4edd-bf51-3fea53f120d4",
+                "resourcePath": "objects\\obj_dialog_killboss\\obj_dialog_killboss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5956529-f6c5-4499-a158-5924bf94676f",
             "Value": {
                 "id": "482f2f51-c46a-4ec4-a07a-fa8257031a1a",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a63fc9a6-bc2b-4975-bf48-2b58f2d77b25",
+            "Value": {
+                "id": "bd0d08b4-6ce3-4992-9c57-08ee5f66fa2f",
+                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a758c7dc-38cd-4b54-bbc5-f81ce711f7b2",
+            "Value": {
+                "id": "1bf18ee0-24f1-45d5-ae48-2903e68c7c34",
+                "resourcePath": "objects\\obj_dialog_bossExplanation\\obj_dialog_bossExplanation.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1263,14 +1311,6 @@
             }
         },
         {
-            "Key": "c487f197-a364-43e1-9eb7-89876fae6420",
-            "Value": {
-                "id": "b1dddab3-f43e-48a0-9f46-cc46d3ed21b4",
-                "resourcePath": "objects\\obj_chiefdialog\\obj_chiefdialog.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c583b754-77e8-4e26-bffa-05f50b0707f7",
             "Value": {
                 "id": "e7d04437-0b1d-4050-90ca-a870a97daf20",
@@ -1439,6 +1479,14 @@
             }
         },
         {
+            "Key": "dbc4bccd-1c70-45f6-b519-5d2627033482",
+            "Value": {
+                "id": "de40e5bd-f9c2-4727-a675-10932462a8f3",
+                "resourcePath": "objects\\obj_dialog_text111111\\obj_dialog_text111111.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "de0fd29d-fbd0-47d9-bdf4-5e6a866abfd8",
             "Value": {
                 "id": "8a709823-c9dc-4d1e-aa1d-1ee387a8b460",
@@ -1460,14 +1508,6 @@
                 "id": "aeda1d42-a7b4-4127-b7c9-cc0e281eb922",
                 "resourcePath": "sounds\\snd_lvl_1\\snd_lvl_1.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "e26f7b8f-aa0d-42db-a106-798e3a5050c8",
-            "Value": {
-                "id": "bc9272f4-e8b9-414e-abc7-78083409d623",
-                "resourcePath": "objects\\obj_player_weapon_rifle\\obj_player_weapon_rifle.yy",
-                "resourceType": "GMObject"
             }
         },
         {
