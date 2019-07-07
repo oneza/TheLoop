@@ -10,7 +10,8 @@
         "3c440de6-6033-41ca-bbec-5ae52aaef5c6",
         "9f9029f3-5a25-4484-a085-b3c75218bba3",
         "e28e9f6d-955b-4140-88f2-cc6400dfa916",
-        "0be33569-fb8f-4877-bdac-fe50377018b3"
+        "0be33569-fb8f-4877-bdac-fe50377018b3",
+        "a63fc9a6-bc2b-4975-bf48-2b58f2d77b25"
     ],
     "filterType": "GMObject",
     "folderName": "game ui",
