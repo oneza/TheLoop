@@ -1,8 +1,8 @@
 while current_capacity != capacity
 {
-    if obj_player.weapon_total_ammo[current_weapon] != 0
+    if obj_game.weapon_total_ammo[current_weapon] != 0
 	{
-		obj_player.weapon_total_ammo[current_weapon]--
+		obj_game.weapon_total_ammo[current_weapon]--
 		current_capacity++
 	}
 	else
@@ -12,7 +12,7 @@ while current_capacity != capacity
 }
 if current_weapon == 0
 {
-	obj_player.weapon_total_ammo[current_weapon] = 99
+	obj_game.weapon_total_ammo[current_weapon] = 99
 }
 
-obj_player.weapon_current_capacity[current_weapon] = current_capacity
+obj_game.weapon_current_capacity[current_weapon] = current_capacity

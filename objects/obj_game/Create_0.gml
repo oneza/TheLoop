@@ -75,7 +75,33 @@ armorrestores = 50;
 
 globalvar current_weapon;
 
+current_weapon = 0;
+
+weapon_total_ammo[0] = 99
+weapon_total_ammo[1] = 0
+weapon_total_ammo[2] = 0
+weapon_current_capacity[0] = 12 // secondary
+weapon_current_capacity[1] = 1 // primary
+weapon_current_capacity[2] = 1
+
+// 0 - pistol
+// 1 - rifle
+// 2 - shotgun
+globalvar maxItems;
+maxItems = 2;
+
+global.inventory[0] = 0;
+global.inventory[1] = -1;	
+
 global.gameIsPaused = false;
 screenShot = -1
 allObjects[0, 0] = noone;
 
+player_hp = 100
+player_armor = 100
+
+
+if room != rm_shefdialog_1
+{
+	scr_loadgame()
+}

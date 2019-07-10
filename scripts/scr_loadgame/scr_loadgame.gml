@@ -1,12 +1,22 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 51DAE171
-/// @DnDArgument : "code" "if(file_exists("Save.sav")){$(13_10)	var loadFile = file_text_open_read("Save.sav");$(13_10)	var loadedRoom = file_text_read_real(loadFile);$(13_10)	file_text_close(loadFile);$(13_10)	room_goto(loadedRoom);$(13_10)} else{$(13_10)	$(13_10)}"
 if(file_exists("Save.sav")){
 	var loadFile = file_text_open_read("Save.sav");
 	var loadedRoom = file_text_read_real(loadFile);
+	file_text_readln(loadFile)
+	global.inventory[0] = file_text_read_real(loadFile);
+	file_text_readln(loadFile)
+	global.inventory[1] = file_text_read_real(loadFile);
+	file_text_readln(loadFile)
+	current_weapon = file_text_read_real(loadFile);
+	file_text_readln(loadFile)
+	obj_game.player_hp = file_text_read_real(loadFile);
+	file_text_readln(loadFile)
+	obj_game.player_armor = file_text_read_real(loadFile);
+	for (var i = 0; i < 3; ++i) 
+	{
+		file_text_readln(loadFile)
+		obj_game.weapon_total_ammo[i] = file_text_read_real(loadFile);
+		file_text_readln(loadFile)
+		obj_game.weapon_current_capacity[i] = file_text_read_real(loadFile);
+	}	
 	file_text_close(loadFile);
-	room_goto(loadedRoom);
-} else{
-	
 }
