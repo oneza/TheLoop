@@ -1,5 +1,5 @@
 //shot in a row
-if bullets_shot < number_of_bullets_in_row && capacity > 0
+if bullets_shot < number_of_bullets_in_row && capacity > 0 && obj_player.state != "roll"
 {
 			bullets_shot++
 			var xp, yp;
@@ -27,7 +27,7 @@ if bullets_shot < number_of_bullets_in_row && capacity > 0
 				alarm[1] = reload_time;
 			}		
 }
-if bullets_shot == number_of_bullets_in_row
+if bullets_shot == number_of_bullets_in_row || obj_player.state = "roll"
 {
 	left_button_unlock = true	
 }

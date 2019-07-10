@@ -19,3 +19,8 @@ else
 if (alarm[0] != -1) alarm[0]--
 
 depth = obj_player.depth
+if obj_player.direction_state == "top" && (  dir >= 35 and dir <= 145  )
+{
+	depth++
+}
+

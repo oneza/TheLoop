@@ -49,17 +49,20 @@ if (state == "move" or state == "standing")
 		y += speed_v;
 	}
 	
-	var change_side = false
-	if (sign(x - mouse_x) != mouse_last_position)
+	if sign(x - mouse_x) != 0
 	{
-		change_side = true	
-	}
-	if change_side
-	{
-		change_side = false
-		mouse_last_position = sign(x - mouse_x)
-		image_xscale = -sign(x - mouse_x)
-		x += -sign(x - mouse_x) * 10
+		var change_side = false
+		if (sign(x - mouse_x) != mouse_last_position)
+		{
+			change_side = true	
+		}
+		if change_side
+		{
+			change_side = false
+			mouse_last_position = sign(x - mouse_x)
+			image_xscale = -sign(x - mouse_x)
+			x += -sign(x - mouse_x) * 11
+		}
 	}
 	
 	if (key_space and (move_x != 0 or move_y != 0))
@@ -73,7 +76,7 @@ if (state == "move" or state == "standing")
 if (state == "roll")
 {
 	image_speed = 0.6
-	var jump_offset = 5
+	var jump_offset = 7
 	switch (direction_state) {
 	    case "right":
 			if place_meeting(x + jump_offset * move_roll, y, obj_collision) 
@@ -111,22 +114,6 @@ if (state == "roll")
 	        break;
 	}
 	
-	
-	
-	//if !place_meeting(x + jump_offset, y, obj_collision)
-	//{
-	//	if (image_xscale == 1) x += jump_offset;	
-	//}
-	//if !place_meeting(x - jump_offset, y, obj_collision)
-	//{
-	//	if (image_xscale == -1) x -= jump_offset;
-	//}
-	
-	
-	//if (keyboard_check_pressed(ord("A"))) x -= spdh * 10;
-	//if (key_right) x += spdh * 10;
-	//if (key_up) y -= spdv * 10;
-	//if (key_down) y += spdv * 10;
 }
 
 depth_set()

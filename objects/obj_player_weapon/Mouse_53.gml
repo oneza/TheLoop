@@ -1,4 +1,4 @@
-if(alarm[0] <= 0 && current_capacity > 0 && left_button_unlock)
+if(alarm[0] <= 0 && current_capacity > 0 && left_button_unlock && obj_player.state != "roll")
 {
 
 		left_button_unlock = false
