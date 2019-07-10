@@ -64,8 +64,8 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "Layer 1",
-            "opacity": 40,
-            "visible": false
+            "opacity": 1,
+            "visible": true
         },
         {
             "id": "27e4418f-c894-4b5d-b5aa-a06cf5411272",
@@ -90,7 +90,7 @@
             "visible": false
         }
     ],
-    "origin": 0,
+    "origin": 6,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -102,5 +102,5 @@
     "type": 0,
     "width": 63,
     "xorig": 0,
-    "yorig": 0
+    "yorig": 78
 }
