@@ -16,7 +16,7 @@ if state != "roll"
 		player_armor -= other.damage;
 	} else if (player_armor <= other.damage)
 	{
-		player_hp = player_hp + player_armor - other.damage
+		player_hp -= other.damage
 		player_armor = 0;
 	}
 }

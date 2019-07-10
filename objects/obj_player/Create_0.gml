@@ -3,8 +3,6 @@ spdh= 6;
 spdv= 5;
 speed_h=0;
 speed_v=0;
-image_xscale = 1;
-can_change_xscale = false;
 //sprite
 state = "standing"
 direction_state = "right"
@@ -15,6 +13,7 @@ object_player_weapon = instance_create_depth(x, y, obj_player.depth, obj_player_
 player_hp = obj_game.player_hp
 player_armor = obj_game.player_armor
 mouse_last_position = sign(x - mouse_x)
+image_xscale = -mouse_last_position
 
 
 
