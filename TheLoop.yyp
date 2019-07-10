@@ -1815,6 +1815,14 @@
             }
         },
         {
+            "Key": "c762171f-d948-4730-8833-d4897a04f984",
+            "Value": {
+                "id": "c4b9cd50-b8ee-45b5-9b57-bef01003c207",
+                "resourcePath": "sprites\\spr_player_death\\spr_player_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c7d8c7b6-bcae-46de-bff3-8d8ce39f61e9",
             "Value": {
                 "id": "7d945c89-4350-4df0-b56d-c7d2e782fcf1",
