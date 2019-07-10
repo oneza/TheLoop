@@ -6,7 +6,7 @@ switch(action){
 		
 	case 1:
 		audio_play_sound(snd_buttonclick, 10, false);
-		scr_loadgame();
+		scr_loadroom();
 		break;
 		
 	case 2:

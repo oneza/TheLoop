@@ -7,6 +7,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
+        "e060fabb-5f43-41ab-8dd7-29f23868d731",
         "cec23c93-3369-4f8d-bfe1-b99be8659832",
         "02617ffb-70d0-451d-94c5-c3870efe1b3c",
         "70f64a87-9a22-4eb6-93cf-b8d737bd2225",
@@ -49,7 +50,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_FD3DCA9","id": "92b6f35e-d30a-4c77-a4ce-a5918eed87c6","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_FD3DCA9.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_FD3DCA9","objId": "496821cd-69d5-472c-b792-76b005d0f0cd","properties": null,"rotation": 0,"scaleX": 3.75,"scaleY": 2.875,"mvc": "1.1","x": 904,"y": 800}
+{"name": "inst_FD3DCA9","id": "92b6f35e-d30a-4c77-a4ce-a5918eed87c6","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_FD3DCA9.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_FD3DCA9","objId": "496821cd-69d5-472c-b792-76b005d0f0cd","properties": null,"rotation": 0,"scaleX": 3.75,"scaleY": 2.875,"mvc": "1.1","x": 904,"y": 800},
+{"name": "inst_754CCCCB","id": "e060fabb-5f43-41ab-8dd7-29f23868d731","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_754CCCCB","objId": "d4418abe-9669-4040-b3e9-d81153af4619","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 1680,"y": 688}
             ],
             "layers": [
 

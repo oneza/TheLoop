@@ -1,5 +1,5 @@
 capacity = obj_game.weapon[current_weapon, 1]
-current_capacity = obj_player.weapon_current_capacity[current_weapon]
+current_capacity = obj_game.weapon_current_capacity[current_weapon]
 
 damage = obj_game.weapon[current_weapon, 2]
 reload_time = obj_game.weapon[current_weapon, 3] * room_speed

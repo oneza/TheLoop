@@ -1,4 +1,2 @@
-/// @DnDAction : YoYo Games.Rooms.Next_Room
-/// @DnDVersion : 1
-/// @DnDHash : 5D9CE461
-room_goto_next();
+scr_savegame(room_next(room))
+room_goto_next()

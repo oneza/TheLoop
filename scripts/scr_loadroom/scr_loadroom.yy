@@ -1,8 +1,8 @@
 {
-    "id": "f5372368-8325-42cc-bb9f-f12731261182",
+    "id": "6909a15a-21ae-427e-a53d-2b7769676d52",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_loadgame",
+    "name": "scr_loadroom",
     "IsCompatibility": false,
     "IsDnD": false
 }
