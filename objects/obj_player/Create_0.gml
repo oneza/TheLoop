@@ -20,6 +20,6 @@ image_xscale = -mouse_last_position
 //abilities
 //1st spell
 first_skillActive = false;
-first_skillRange = 450
+first_skillRange = 250
 ability_duration = room_speed * 10;
 ability_cooldown = room_speed * 30;

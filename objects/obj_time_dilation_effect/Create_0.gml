@@ -4,7 +4,7 @@ part_system_depth(partHit_sys, -room_height - 1 );
 partHit = part_type_create()
 part_type_shape(partHit, pt_shape_ring)
 //part_type_size(partHit, 15, 16, 0, 0.05)
-part_type_scale(partHit, 15, 15);
+part_type_scale(partHit, 9, 9);
 part_type_colour2( partHit, c_blue, c_aqua);
 part_type_alpha1(partHit, 0.3);
 part_type_speed(partHit, 0, 0, 0, 0);

@@ -1,5 +1,14 @@
+var coef = 1.5
 if state != "roll"
 {
+	if (player_armor > other.damage * coef)
+	{
+		player_armor -= other.damage * coef;
+	} else if (player_armor <= other.damage * coef)
+	{
+		player_hp += player_armor - other.damage * coef
+		player_armor = 0;
+	}
 	if (player_hp <= 0)
 	{
 		if first_skillActive
@@ -11,12 +20,5 @@ if state != "roll"
 			instance_destroy(effect)
 		}
 		room_goto(rm_death);
-	} else if (player_armor > other.damage)
-	{
-		player_armor -= other.damage;
-	} else if (player_armor <= other.damage)
-	{
-		player_hp -= other.damage
-		player_armor = 0;
-	}
+	} 
 }
