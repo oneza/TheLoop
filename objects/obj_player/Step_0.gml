@@ -6,7 +6,7 @@ key_down  = keyboard_check(ord("S"));
 key_space = keyboard_check_pressed(vk_space);
 move_x = (key_right - key_left);
 move_y = (key_down - key_up);
-
+if(image_alpha==0){move_x=0; move_y=0}
 if (room = rm_bossdialog_1)
 {
 	if (!instance_exists(obj_boss))
