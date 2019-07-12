@@ -8,5 +8,10 @@ if flash > 0
 	shader_reset()
 }
 
-draw_text(x, y - 130, string(enemy_weapon))
-//draw_text(x + 30, y - 130, string(direction))
+if state == 2
+{
+	draw_line(x, y, last_seen_x, last_seen_y)	
+}
+
+//draw_text(x, y - 130, string(direction))
+draw_text(x + 30, y - 190, string(state))

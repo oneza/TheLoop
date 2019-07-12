@@ -1,4 +1,4 @@
-var coef = 1.5
+var coef = 1.75
 if (state != "cover" and state != "roll") or (state == "cover" and collision_line(x, y, x - 100*cos(degtorad(direction)), y + 100*sin(degtorad(direction)), obj_cover1, true, true))
 {
 	if (player_armor > other.damage * coef)
