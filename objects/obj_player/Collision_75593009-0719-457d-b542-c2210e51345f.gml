@@ -6,7 +6,7 @@ if (state != "cover" and state != "roll") or (state == "cover" and !collision_li
 		player_armor -= other.damage * coef;
 	} else if (player_armor <= other.damage * coef)
 	{
-		//player_hp += player_armor - other.damage * coef
+		player_hp += player_armor - other.damage * coef
 		player_armor = 0;
 	}
 	if (player_hp <= 0)
