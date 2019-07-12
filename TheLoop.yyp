@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "10442980-a42d-4942-8513-10e1e055ff40",
+            "Value": {
+                "id": "28a8f620-0766-4d5c-b3d1-1ac014d2f225",
+                "resourcePath": "objects\\obj_player_timeup\\obj_player_timeup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "11c6c72c-bc1b-41d1-aef7-1dfefa584e5c",
             "Value": {
                 "id": "a9649463-62c2-444e-bd75-e722498ab51f",
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "25ded501-ac2c-4215-a032-912eaef025c2",
+            "Value": {
+                "id": "4d8ad016-a166-4888-859a-9b6033e708bf",
+                "resourcePath": "objects\\obj_player_timeout\\obj_player_timeout.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "270ebdec-c691-4f0e-a824-5bc0b9726984",
             "Value": {
                 "id": "d070293c-1cb7-45f7-9be2-db1b840f6de0",
@@ -572,6 +588,14 @@
                 "id": "5fc354c0-6195-4b53-ba45-cc221d54baff",
                 "resourcePath": "paths\\pth_patrol3\\pth_patrol3.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "33610508-aaf2-4cd6-959c-3939113ddd71",
+            "Value": {
+                "id": "ae96a7df-de93-414e-8547-db35aa992283",
+                "resourcePath": "objects\\obj_timejumper\\obj_timejumper.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1511,6 +1535,14 @@
             }
         },
         {
+            "Key": "9bcdabb0-1a8e-4165-b33f-2c2ac64ad804",
+            "Value": {
+                "id": "431166c1-d20d-47fc-829c-9f7395b766d0",
+                "resourcePath": "objects\\obj_player_dead\\obj_player_dead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9d06c335-6c00-458e-a7a3-fd0d8d1f34ab",
             "Value": {
                 "id": "1e217e17-c2f8-47f0-81af-d014566a5aa3",
@@ -2236,6 +2268,14 @@
                 "id": "4eed9c26-0c0e-4dce-aec6-9b46b8a21f5f",
                 "resourcePath": "sprites\\spr_kover2\\spr_kover2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e99b22c5-2ef9-4aea-94c9-2f7cc76a9415",
+            "Value": {
+                "id": "4ef9dff5-f0a6-41ca-9e6b-640c8a4b57e4",
+                "resourcePath": "objects\\obj_bossdeath\\obj_bossdeath.yy",
+                "resourceType": "GMObject"
             }
         },
         {

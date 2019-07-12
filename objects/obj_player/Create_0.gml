@@ -15,11 +15,11 @@ player_armor = obj_game.player_armor
 mouse_last_position = sign(x - mouse_x)
 image_xscale = -mouse_last_position
 
-
+obj_game.player_hp=100
 
 //abilities
 //1st spell
 first_skillActive = false;
 first_skillRange = 250
-ability_duration = room_speed * 10;
-ability_cooldown = room_speed * 30;
+ability_duration = room_speed * 5;
+ability_cooldown = room_speed * 15;

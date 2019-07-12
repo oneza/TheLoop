@@ -50,7 +50,7 @@
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "hspeed": 0,
-            "htiled": false,
+            "htiled": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -63,12 +63,12 @@
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
             "spriteId": "eb0d0de6-9c9c-4049-b0bc-dedc365d3773",
-            "stretch": false,
+            "stretch": true,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
-            "vtiled": false,
+            "vtiled": true,
             "x": 0,
             "y": 0
         }
@@ -87,7 +87,7 @@
     },
     "roomSettings":     {
         "id": "f85f5698-37b5-479a-8948-1f4cf3697705",
-        "Height": 1080,
+        "Height": 992,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,

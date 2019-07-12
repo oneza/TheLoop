@@ -19,6 +19,9 @@ if state != "roll"
 			}
 			instance_destroy(effect)
 		}
-		room_goto(rm_death);
+		if(image_alpha>0){
+		instance_create_depth(x, y, depth, obj_player_dead)}
+		image_alpha=0;
+		instance_deactivate_object(obj_player_weapon)
 	} 
-}
+ }

@@ -71,7 +71,7 @@ globalvar fakrestores;
 fakrestores = 50;
 
 globalvar armorrestores;
-armorrestores = 50;
+armorrestores = 100;
 
 globalvar current_weapon;
 
