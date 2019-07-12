@@ -8,10 +8,10 @@ if inst_spawned
 {
 	prev_x = x
 	prev_y = y
-	nearest_cover = instance_nearest(x, y, obj_collision_cover)
+	nearest_cover = instance_nearest(x + move_x * 50, y + move_y * 50, obj_collision_cover)
 	if move_x != 0
 	{
-		//x = nearest_cover.x - 75 * move_x
+		x = nearest_cover.x - 75 * move_x
 		y = nearest_cover.y + 22
 		sprite_index = spr_player_cover_side
 		image_xscale = move_x
