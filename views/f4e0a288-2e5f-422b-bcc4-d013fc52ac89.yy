@@ -10,7 +10,8 @@
         "e28e9f6d-955b-4140-88f2-cc6400dfa916",
         "2c824a35-15a5-48dd-801b-134ec63daed3",
         "501719fd-c125-42bb-b173-56df91c7adcf",
-        "d0c6344d-4463-4a72-bfe4-c781d79fb9c6"
+        "d0c6344d-4463-4a72-bfe4-c781d79fb9c6",
+        "cb8228a3-968d-4b76-9110-6e710ebac5c8"
     ],
     "filterType": "GMObject",
     "folderName": "music",

@@ -16,6 +16,6 @@ switch(action){
 		
 	case 3:
 		audio_play_sound(snd_buttonclick, 10, false);
-		room_goto(rm_1);
+		room_goto(rm_tutorial);
 		break;		
 }
