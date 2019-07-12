@@ -1,4 +1,4 @@
-if (room != rm_death && room != rm_startscreen && room != rm_mainmenu)
+if (room != rm_death && room != rm_startscreen && room != rm_mainmenu && room !=rm_shefdialog_1 && room !=rm_shefdialog_2 && room !=rm_shefdialog_3 && room !=rm_bossdialog_1)
 {
 	var lay_id = layer_get_id("Background");
 	var lay_idd = layer_get_id("Instances");
@@ -24,8 +24,10 @@ if (room != rm_death && room != rm_startscreen && room != rm_mainmenu)
 		y_for_pause = camera_get_view_y(camera);
 		instance_deactivate_all(true);
 		//instance_activate_layer(lay_idd);
+		instance_activate_object(obj_reticle);
 		instance_activate_object(obj_pause_resumebutton);
 		instance_activate_object(obj_pause_mmbutton);
+		
 		//layer_vspeed(lay_id,0);
 		global.gameIsPaused = true;
 	} else {
