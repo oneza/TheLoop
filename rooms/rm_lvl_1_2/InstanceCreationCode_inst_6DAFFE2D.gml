@@ -1,9 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7A189C7E
-/// @DnDArgument : "expr" "pth_patrol15"
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "pth_patrol2"
+/// @DnDArgument : "expr_1" "180"
 /// @DnDArgument : "var" "patrol_path"
-patrol_path = pth_patrol15;
+/// @DnDArgument : "var_1" "direction"
+patrol_path = pth_patrol2;
+direction = 180;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
