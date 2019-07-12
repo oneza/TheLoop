@@ -1007,6 +1007,14 @@
             }
         },
         {
+            "Key": "5ac3dca4-9429-4e58-acc4-bd56a1278200",
+            "Value": {
+                "id": "b5d9b019-a209-4c7d-a045-f25babf605a5",
+                "resourcePath": "objects\\obj_water_collision\\obj_water_collision.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5b538844-5e6b-478a-8ca9-0b0e85ddaac3",
             "Value": {
                 "id": "9eae0108-b1de-4e5e-9f79-f694f89c4b69",
@@ -1380,6 +1388,14 @@
                 "id": "60de925a-3cd5-4753-ab3f-afdadb314918",
                 "resourcePath": "paths\\pth_patrol15\\pth_patrol15.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "8014cfe1-408e-42da-8eb3-5bdbd7fe0c0b",
+            "Value": {
+                "id": "17767a0c-44a8-4f36-a179-9f61610cfb89",
+                "resourcePath": "sprites\\spr_water_collision\\spr_water_collision.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

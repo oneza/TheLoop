@@ -10,8 +10,8 @@ if flash > 0
 
 if state == 2
 {
-	draw_line(x, y, last_seen_x, last_seen_y)	
+	//draw_line(x, y, last_seen_x, last_seen_y)	
 }
 
 //draw_text(x, y - 130, string(direction))
-draw_text(x + 30, y - 190, string(state))
+//draw_text(x + 30, y - 190, string(state))
