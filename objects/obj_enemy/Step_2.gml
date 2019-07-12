@@ -21,7 +21,7 @@ if direction >= 225 and direction <= 315
 	direction_state = "bottom"	
 } 
 
-if state != 2
+if state != 1 and state != 2 or (state == 2 and !chill_started) 
 {
 	
 
@@ -40,7 +40,7 @@ if state != 2
 
 if x != xprevious || y != yprevious
 {
-   moved = true;
+	moved = true;
 }
 else 
 {

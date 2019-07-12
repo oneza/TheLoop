@@ -1,15 +1,3 @@
-////#region Ability
-////distance = sqrt(sqr(x - obj_player.x) + sqr(y - obj_player.y));
-////if (distance > 450 && skillActive == true) 
-////{
-////	vspeed = 0.000001;
-////	hspeed = 0.000001;
-////} else 
-////{
-////	vspeed = spdv;
-////	hspeed = spdh;
-////}
-////#endregion
 distance = sqrt(sqr(x - obj_player.x) + sqr(y - obj_player.y));
 #region Behaviour
 if !obj_player.first_skillActive or (obj_player.first_skillActive and distance < obj_player.first_skillRange)
@@ -38,11 +26,17 @@ switch(state){
 			state = 2
 			
 		}
-		if distance_to_object(obj_player) > range_of_fight
+		path_to_player = path_add()
+		if distance_to_object(obj_player) > range_of_fight and path_index == -1 and mp_grid_path(obj_game.grid, path_to_player, x, y, obj_player.x, obj_player.y, false)
 		{
-			mp_potential_step_object(obj_player.x, obj_player.y, search_speed, obj_collision)
+			path_start(path_to_player, search_speed, path_action_stop, 0);			
 		}
-		
+		if distance_to_object(obj_player) <= range_of_fight and path_index != -1
+		{
+			path_end()
+		}
+			
+	
 		// kill player
 		with (object_enemy_weapon)
 		{
@@ -51,21 +45,30 @@ switch(state){
 		break;
 	case 2: // search player
 		//
-		mp_potential_step_object(last_seen_x, last_seen_y, search_speed, obj_collision)
+		path_to_player = path_add()
+		
+		if mp_grid_path(obj_game.grid, path_to_player, x, y, last_seen_x, last_seen_y, false) and path_index == -1
+        {
+			path_start(path_to_player, search_speed, path_action_stop, 0);
+        }
+		if path_index == -1 and !chill_started
+		{
+			chill_started = true
+			alarm[0] = chill_time			
+		}
 		if distance_to_object(obj_player) < range_of_view and !collision_line(object_enemy_weapon.x, object_enemy_weapon.y, obj_player.x, obj_player.y, obj_collision, true, false)
 		{
 			alarm[0] = -1
 			chill_started = false
 			state = 1	
 		}
-		if (x == last_seen_x and y == last_seen_y and !chill_started)
-		{
-			chill_started = true
-			alarm[0] = chill_time
-		}
 		break
 	case 3:
-		mp_potential_step_object(start_x, start_y, patrol_speed, obj_collision)
+		path_to_start_point = path_add()
+		if mp_grid_path(obj_game.grid, path_to_start_point, x, y, start_x, start_y, false) and path_index == -1
+        {
+			path_start(path_to_start_point, search_speed, path_action_stop, 0);
+        }
 		if distance_to_object(obj_player) < range_of_view and !collision_line(object_enemy_weapon.x, object_enemy_weapon.y, obj_player.x, obj_player.y, obj_collision, true, false)
 		{
 			state = 1	

@@ -1,5 +1,4 @@
-if !obj_player.first_skillActive and state == 0
+if path_index != -1
 {
 	path_end()
-	state = 3
 }

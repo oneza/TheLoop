@@ -105,3 +105,15 @@ if room != rm_shefdialog_1
 {
 	scr_loadgame()
 }
+
+
+
+
+//grid stuff
+grid_width = 80
+grid_height = 80
+grid = mp_grid_create(0, 0, room_width / grid_width, room_height /grid_height, grid_width, grid_height);
+mp_grid_add_instances(grid, obj_collision, true);
+
+
+
