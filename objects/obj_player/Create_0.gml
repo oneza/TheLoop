@@ -14,6 +14,8 @@ player_hp = obj_game.player_hp
 player_armor = obj_game.player_armor
 mouse_last_position = sign(x - mouse_x)
 image_xscale = -mouse_last_position
+//cover
+inst_spawned = false
 
 obj_game.player_hp=100
 
