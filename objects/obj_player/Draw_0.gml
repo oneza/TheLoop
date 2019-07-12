@@ -10,8 +10,9 @@ draw_self();
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 3E6A75C5
+/// @DnDDisabled : 1
+/// @DnDArgument : "x" "-20"
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "-30"
+/// @DnDArgument : "y" "-60"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" "player_hp"
-draw_text(x + 0, y + -30, string(player_hp) + "");
+/// @DnDArgument : "caption" "state"
