@@ -12,9 +12,11 @@ object_player_weapon = instance_create_depth(x, y, obj_player.depth, obj_player_
 //hp
 player_hp = obj_game.player_hp
 player_armor = obj_game.player_armor
+//sprite
 mouse_last_position = sign(x - mouse_x)
 image_xscale = -mouse_last_position
-
+//cover
+inst_spawned = false
 
 
 //abilities

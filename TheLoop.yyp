@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "295b0ac0-6586-45d4-bd9e-40054a89c93e",
+            "Value": {
+                "id": "46be5233-e1fd-4508-a4d8-3ab66fcfb90b",
+                "resourcePath": "objects\\obj_collision_cover\\obj_collision_cover.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ad63dc7-3196-4e4d-9ffe-6bea29fbde66",
             "Value": {
                 "id": "754b51d9-fe83-449c-88e7-9ed110c899cb",
@@ -1043,14 +1051,6 @@
             "Value": {
                 "id": "77ea23e3-95ee-4490-b14e-1314a5bddbf1",
                 "resourcePath": "objects\\obj_dec_11\\obj_dec_11.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "661db8e4-a917-430e-a418-96f1f7c4eed2",
-            "Value": {
-                "id": "96f6acb0-3bd8-4dee-8a5e-7df0af4f165e",
-                "resourcePath": "objects\\obj_upcover\\obj_upcover.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1695,6 +1695,14 @@
             }
         },
         {
+            "Key": "ad6a256b-9a85-4a18-8c8d-d6fb771090ca",
+            "Value": {
+                "id": "bb9f5ada-d78b-4d8c-aa44-53058c8afc69",
+                "resourcePath": "sprites\\spr_cover_collision\\spr_cover_collision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae712bbf-42b4-4c6b-8894-81806cf22444",
             "Value": {
                 "id": "7d785611-fad1-440f-a87d-61c99865676e",
@@ -2156,14 +2164,6 @@
                 "id": "c5b01dee-227d-4e3e-a55d-38ba5f1f7a4e",
                 "resourcePath": "sprites\\spr_day_before\\spr_day_before.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e4135e32-d18a-415e-962a-96f6d32bfa76",
-            "Value": {
-                "id": "7f566350-81ca-43aa-82d5-b3289b90a473",
-                "resourcePath": "objects\\obj_cover\\obj_cover.yy",
-                "resourceType": "GMObject"
             }
         },
         {

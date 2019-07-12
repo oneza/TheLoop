@@ -1,5 +1,5 @@
 var coef = 1.5
-if state != "roll"
+if state != "roll" and state != "cover"
 {
 	if (player_armor > other.damage * coef)
 	{

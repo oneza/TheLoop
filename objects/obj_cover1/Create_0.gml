@@ -1,0 +1,1 @@
+instance_create_depth(x, y - 15, depth, obj_collision_cover)

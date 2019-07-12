@@ -4,8 +4,8 @@ key_left  = keyboard_check(ord("A"));
 key_up    = keyboard_check(ord("W"));
 key_down  = keyboard_check(ord("S"));
 key_space = keyboard_check_pressed(vk_space);
-var move_x = (key_right - key_left);
-var move_y = (key_down - key_up);
+move_x = (key_right - key_left);
+move_y = (key_down - key_up);
 
 if (room = rm_bossdialog_1)
 {
@@ -71,6 +71,25 @@ if (state == "move" or state == "standing")
 		image_index = 0;
 		state = "roll";	
 	}
+	
+	if place_meeting(x + move_x, y, obj_collision_cover) && !inst_spawned
+	{
+		inst_spawned = true
+		cover_button = instance_create_depth(x - 30, y - 130, depth, obj_iteract_helper)
+	}
+	if place_meeting(x, y + move_y, obj_collision_cover) && !inst_spawned
+	{
+		inst_spawned = true
+		cover_button = instance_create_depth(x - 30, y - 130, depth, obj_iteract_helper)
+	}
+	if inst_spawned and !place_meeting(x + move_x, y + move_y, obj_collision_cover)
+	{
+		instance_destroy(cover_button)
+		inst_spawned = false
+	}
+	
+	
+	
 }
 
 if (state == "roll")
