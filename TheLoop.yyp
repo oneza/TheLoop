@@ -1713,7 +1713,7 @@
         {
             "Key": "a3cb0d0f-55c5-40c2-afd7-106d2ff2474f",
             "Value": {
-                "id": "29d7cde0-5677-4315-a9fd-66d9278482b9",
+                "id": "e36831dd-6ac2-4dee-9379-54712878eef4",
                 "resourcePath": "objects\\obj_tutorial\\obj_tutorial.yy",
                 "resourceType": "GMObject"
             }
@@ -2457,7 +2457,7 @@
         {
             "Key": "ebbee4a2-7810-4035-ab2e-e3c2765e17a0",
             "Value": {
-                "id": "542aebbc-5cee-4abc-b933-66772788ca56",
+                "id": "2d22544c-9a20-4a54-843c-61903143d2b4",
                 "resourcePath": "rooms\\rm_tutorial\\rm_tutorial.yy",
                 "resourceType": "GMRoom"
             }
