@@ -22,6 +22,13 @@ if (room != rm_death && room != rm_startscreen && room != rm_mainmenu && room !=
 		var camera = view_get_camera(0);
 		x_for_pause = camera_get_view_x(camera) + 355;
 		y_for_pause = camera_get_view_y(camera);
+		if instance_exists(obj_player)
+		{
+			with(obj_player)
+			{
+				event_user(0)	
+			}
+		}
 		instance_deactivate_all(true);
 		//instance_activate_layer(lay_idd);
 		instance_activate_object(obj_reticle);
@@ -33,6 +40,10 @@ if (room != rm_death && room != rm_startscreen && room != rm_mainmenu && room !=
 	} else {
 		audio_stop_sound(snd_pause);
 		instance_activate_all();
+		if obj_player.first_skillActive
+		{
+			obj_player.effect = instance_create_depth(obj_player.x, obj_player.y, obj_player.depth = -room_height - 1, obj_time_dilation_effect)	
+		}
 		instance_destroy(obj_pause_mmbutton)
 		instance_destroy(obj_pause_resumebutton)
 		//instance_deactivate_object(obj_mainmenubutton);
